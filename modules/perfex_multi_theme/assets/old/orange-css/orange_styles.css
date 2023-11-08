@@ -1,0 +1,459 @@
+/*******ROOT CSS COLOR********/
+
+:root {
+	--main-bg-color: #f5561e;
+	--white-bg-color: #fff;
+	--header-search-bg: rgba(0, 0, 0, .2);
+	--black-text-color: #000;
+	--menu-hover-bg: rgba(200, 200, 200, 0.2);
+}
+
+.btn.dropdown-toggle {
+	background-color: transparent !important;
+}
+
+
+/*******CLOSE********/
+
+body {
+	background-color: #e3e8ee !important
+}
+
+#header {
+	background: var(--main-bg-color) !important;
+}
+
+#top_search input {
+	background: var(--header-search-bg);
+	border-radius: 60px;
+	height: 50px;
+}
+
+.nanobar {
+	height: 0
+}
+
+#side-menu {
+	background: var(--main-bg-color) !important;
+}
+
+#side-menu li.active>a {
+	background: #fff !important;
+	border-color: #fc4e1b !important;
+}
+
+#side-menu.nav>li>a:focus,
+#side-menu.nav>li>a:hover {
+	background: #fff;
+	border-color: #fc4e1b !important;
+}
+
+.dashboard_user {
+	background: var(--main-bg-color) !important;
+	opacity: 0.9;
+}
+
+#side-menu li a {
+	color: #fff;
+}
+
+.btn-info {
+	background: var(--main-bg-color) !important;
+	border-color: var(--main-bg-color) !important;
+}
+
+.btn-info:hover {
+	background: var(--main-bg-color) !important;
+	border-color: var(--main-bg-color) !important;
+}
+
+.radio-primary input[type=radio]:checked+label::after {
+	background-color: #f5561e !important;
+}
+
+.radio-primary input[type=radio]:checked+label::before {
+	border-color: #f5561e !important;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+	background: var(--main-bg-color) !important;
+	border-color: var(--main-bg-color) !important;
+}
+
+a {
+	color: --main-bg-color
+}
+
+table.dataTable thead>tr>th {
+	color: var(--black-text-color)
+}
+
+#side-menu li .nav-second-level li a {
+	color: var(--black-text-color)
+}
+
+#side-menu li .nav-second-level li.active a {
+	background: var(--main-bg-color) !important;
+}
+
+
+/*.progress-bar{background: var(--main-bg-color) !important;}*/
+
+#side-menu.nav>li.pinned_project>a:hover {
+	color: #000;
+}
+
+.dataTables_length select:focus,
+.uneditable-input:focus,
+input[type=color]:focus,
+input[type=date]:focus,
+input[type=datetime-local]:focus,
+input[type=datetime]:focus,
+input[type=email]:focus,
+input[type=file]:focus,
+input[type=month]:focus,
+input[type=number]:focus,
+input[type=password]:focus,
+input[type=search]:focus,
+input[type=tel]:focus,
+input[type=text]:focus,
+input[type=time]:focus,
+input[type=url]:focus,
+input[type=week]:focus,
+select.form-control:focus,
+textarea.form-control:focus {
+	border-color: #bfcbd9
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li>a:focus,
+.nav-tabs>li>a:hover {
+	color: --main-bg-color
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover,
+.navbar-pills.nav-tabs>li>a:focus,
+.navbar-pills.nav-tabs>li>a:hover {
+	border-bottom: 1px solid var(--main-bg-color) !important;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li>a:focus,
+
+/*.nav-tabs>li>a:hover{ border-bottom: 1px solid var(--main-bg-color) !important;}*/
+
+.hrm-bgblue {
+	background-color: var(--white-bg-color);
+}
+
+.btn-success {
+	background: var(--main-bg-color) !important;
+}
+
+.checkbox-info input[type=checkbox]:checked+label::before,
+.checkbox-info input[type=radio]:checked+label::before {
+	background-color: transparent !important;
+	border-color: var(--main-bg-color) !important;
+}
+
+
+
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:focus,
+.dropdown-menu>.active>a:hover {
+	background: var(--main-bg-color) !important;
+}
+
+.user-data .home-activity .nav-tabs>li.active>a,
+.user-data .home-activity .nav-tabs>li.active>a:focus,
+.user-data .home-activity .nav-tabs>li.active>a:hover,
+.user-data .home-activity .nav-tabs>li>a:focus,
+.user-data .home-activity .nav-tabs>li>a:hover {
+	color: --main-bg-color !important
+}
+
+.btn-info.active,
+.btn-info:active,
+.open>.dropdown-toggle.btn-info {
+	background: var(--main-bg-color) !important !important;
+	opacity: 0.9;
+	border-color: var(--main-bg-color) !important !important;
+}
+
+.btn-info.disabled,
+.btn-info.disabled.active,
+.btn-info.disabled.focus,
+.btn-info.disabled:active,
+.btn-info.disabled:focus,
+.btn-info.disabled:hover,
+.btn-info[disabled],
+.btn-info[disabled].active,
+.btn-info[disabled].focus,
+.btn-info[disabled]:active,
+.btn-info[disabled]:focus,
+.btn-info[disabled]:hover,
+fieldset[disabled] .btn-info,
+fieldset[disabled] .btn-info.active,
+fieldset[disabled] .btn-info.focus,
+fieldset[disabled] .btn-info:active,
+fieldset[disabled] .btn-info:focus,
+fieldset[disabled] .btn-info:hover {
+	background: var(--main-bg-color) !important;
+	opacity: 0.9;
+}
+
+.activity-feed .feed-item {
+	border-left: 2px solid var(--main-bg-color) !important;
+}
+
+.label-info {
+	background: 0 0;
+	border: 1px solid var(--main-bg-color) !important;
+	color: --main-bg-color;
+}
+
+.modal-header {
+	background: var(--main-bg-color) !important;
+	opacity: 0.9;
+}
+
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div.xdsoft_current {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background: var(--main-bg-color) !important;
+	border-radius: 3px;
+	opacity: 0.9;
+}
+
+#setup-menu>li>a {
+/*	color: var(--black-text-color);*/
+}
+
+#setup-menu-wrapper {
+	background: var(--white-bg-color);
+}
+
+.btn-primary {
+	color: #fff;
+	background: var(--main-bg-color) !important !important
+}
+
+.checkbox-primary input[type=checkbox]:checked+label::before,
+.checkbox-primary input[type=radio]:checked+label::before {
+	background-color: var(--main-bg-color) !important;
+	border-color: var(--main-bg-color) !important;
+}
+
+#top_search {
+	padding-top: 7px;
+}
+
+.btn-success.active,
+.btn-success:active,
+.btn-success:focus,
+.btn-success:hover,
+.open .dropdown-toggle.btn-success {
+	background-color: var(--main-bg-color) !important;
+	border-color: var(--main-bg-color) !important;
+}
+
+.text-info {
+	color: var(--main-bg-color) !important;
+}
+
+.dropzone .dz-message {
+	color: var(--main-bg-color) !important;
+}
+
+.table.items thead {
+	background-color: var(--main-bg-color) !important;
+}
+
+.radio-primary input[type=radio]:checked+label::before .radio-primary input[type=radio]:checked+label::after {
+	background-color: var(--main-bg-color) !important !important;
+}
+
+.login_admin {
+	background-color: var(--main-bg-color) !important !important;
+}
+
+.ringing {
+	background-color: #f5561e;
+}
+
+#setup-menu li .nav-second-level li.active a {
+	background-color: #f5561e;
+}
+
+.cut a {
+	background-color: transparent;
+	border: 1px solid #710303;
+	color: #ff0c0c;
+}
+
+
+/**************/
+
+#top_search_button button {
+	color: #fc4e1b !important;
+}
+
+#side-menu li.active>a {
+	border-color: #fc4e1b !important;
+}
+
+#widget-top_stats .fa-balance-scale {
+	background-color: #fc4e1b !important;
+}
+
+#widget-top_stats .progress-bar-danger {
+	background-color: #fc4e1b !important;
+}
+
+#widget-top_stats .fa-tty {
+	background-color: #fc4e1b !important;
+}
+
+#widget-top_stats .progress-bar-success {
+	background-color: #fc4e1b !important;
+}
+
+#widget-top_stats .fa-cubes {
+	background-color: #fc4e1b !important;
+}
+
+.quick-stats-projects .no-percent-text {
+	background-color: #fc4e1b !important;
+}
+
+#widget-finance_overview .text-dark {
+	background: var(--main-bg-color) !important;
+}
+
+.screen-options-btn {
+	background: var(--main-bg-color) !important;
+}
+
+#widget-projects_chart .padding-5,
+#widget-tickets_chart .padding-5,
+#widget-leads_chart .padding-5,
+#widget-projects_activity .padding-5 {
+	background: var(--main-bg-color) !important;
+}
+
+#widget-user_data .nav li a:hover {
+	background: var(--main-bg-color) !important;
+}
+
+#widget-user_data .nav .active a {
+	background: var(--main-bg-color) !important;
+}
+
+.home-activity .mbot20 {
+	background: var(--main-bg-color) !important;
+}
+
+.btn.active,
+.btn:active border-color: transparent !important;
+
+}
+.activity-feed .feed-item {
+	border-left: 2px solid #fc4e1b !important;
+}
+.modal-header {
+	background: var(--main-bg-color) !important;
+}
+.checkbox-primary input[type=checkbox]:checked+label::after,
+.checkbox-primary input[type=radio]:checked+label::after {
+	color: #fc4e1b;
+}
+#side-menu.nav>li>a:focus,
+#side-menu.nav>li>a:hover {
+	border-color: #fc4e1b !important;
+}
+#side-menu.nav>li>a:focus,
+#side-menu.nav>li>a:hover {
+	background: rgb(255 255 255) !important;
+	color: black;
+}
+div#DataTables_Table_1_info {
+	position: relative;
+	top: 40px;
+}
+body #wrapper th {
+	color: #fc4e1b !important;
+}
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc_disabled:after {
+	color: #fc4e1b !important;
+}
+.checkbox label::after {
+	color: #fc4e1b !important;
+}
+.color_confi_btn {
+	background: var(--main-bg-color) !important;
+}
+#widget-finance_overview .show-tick {
+	background: var(--main-bg-color) !important;
+}
+.navbar-nav>li>a {
+	border-right: 1px dashed #d2d6dea8 !important;
+}
+
+/*
+.nav>li {
+    border-top: 1px dashed #e3ebf67a !important;
+}
+*/
+#widget-top_stats .fa-tasks {
+	background-color: rgb(252 78 27) !important;
+}
+#widget-top_stats .progress-bar-default {
+	background-color: rgb(214 66 23) !important;
+}
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li>a:focus,
+.nav-tabs>li>a:hover {
+	color: #fa7023;
+}
+.nav.nav-tabs.profile-tabs.row.customer-profile-tabs.nav-tabs-horizontal .active a {
+	color: #fc5c1e !important;
+}
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li>a:focus,
+.nav-tabs>li>a:hover {
+	border-bottom: 1px solid #fc521c87 !important;
+}
+.user-data .home-activity .nav-tabs>li.active>a,
+.user-data .home-activity .nav-tabs>li.active>a:focus,
+.user-data .home-activity .nav-tabs>li.active>a:hover,
+.user-data .home-activity .nav-tabs>li>a:focus,
+.user-data .home-activity .nav-tabs>li>a:hover {
+	border-bottom: 0;
+	color: #ffffff!important;
+	margin-bottom: 2px;
+}
+
+ul#setup-menu {
+    background: var(--main-bg-color) !important;
+}

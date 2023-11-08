@@ -1,0 +1,416 @@
+/****Root color Code****/
+
+:root {
+	--main-bg-color: #fff;
+	--white-bg-color: #fff;
+	--header-search-bg: rgba(0, 0, 0, .2);
+	--black-text-color: #000;
+	--menu-hover-bg: rgba(200, 200, 200, 0.2);
+	--second-bg-color: linear-gradient(#392ab7, #2861b7);
+}
+
+
+/****Close****/
+
+body {
+	background-color: #e3e8ee !important;
+	color: black;
+}
+
+#header {
+	background: #ffffff !important;
+}
+
+#side-menu li.dashboard_user {
+	background: #ffffff !important;
+}
+
+.dropdown-quick-links i {
+	color: white
+}
+
+#top_search input {
+	background: var(--header-search-bg);
+	border-radius: 40px;
+	height: 50px;
+}
+
+.nanobar {
+	height: 0
+}
+
+#side-menu {
+	background: var(--main-bg-color) !important;
+}
+
+#side-menu li.active>a {
+	background: #e3e8ee;
+	color: #060606;
+}
+
+#side-menu.nav>li>a:focus,
+#side-menu.nav>li>a:hover {
+	background: var(--menu-hover-bg);
+	color: black
+}
+
+.dashboard_user {
+	background: var(--main-bg-color) !important;
+	opacity: 0.9;
+}
+
+#side-menu li a {
+	color: var(--black-text-color);
+}
+
+.btn-info {
+	background: #4967ff !important;
+}
+
+.radio-primary input[type=radio]:checked+label::after {
+
+}
+
+.radio-primary input[type=radio]:checked+label::before {
+
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+	background: #4967ff !important;
+	border-color: #4967ff !important;
+}
+
+a {
+	color: --main-bg-color
+}
+
+table.dataTable thead>tr>th {
+	color: var(--black-text-color)
+}
+
+#side-menu li .nav-second-level li a {
+	color: var(--black-text-color)
+}
+
+#side-menu li .nav-second-level li.active a {
+	background: var(--main-bg-color) !important;
+}
+
+
+
+#side-menu.nav>li.pinned_project>a:hover {
+	color: #000;
+}
+
+.dataTables_length select:focus,
+.uneditable-input:focus,
+input[type=color]:focus,
+input[type=date]:focus,
+input[type=datetime-local]:focus,
+input[type=datetime]:focus,
+input[type=email]:focus,
+input[type=file]:focus,
+input[type=month]:focus,
+input[type=number]:focus,
+input[type=password]:focus,
+input[type=search]:focus,
+input[type=tel]:focus,
+input[type=text]:focus,
+input[type=time]:focus,
+input[type=url]:focus,
+input[type=week]:focus,
+select.form-control:focus,
+textarea.form-control:focus {
+	border-color: #bfcbd9
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li>a:focus,
+.nav-tabs>li>a:hover {
+	color: --main-bg-color
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover,
+.navbar-pills.nav-tabs>li>a:focus,
+.navbar-pills.nav-tabs>li>a:hover {
+	border-bottom: 1px solid var(--main-bg-color) !important;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li>a:focus,
+.nav-tabs>li>a:hover {
+	border-bottom: 1px solid var(--main-bg-color) !important;
+}
+
+.hrm-bgblue {
+	background-color: var(--white-bg-color);
+}
+
+.btn-success {}
+
+.checkbox-info input[type=checkbox]:checked+label::before,
+.checkbox-info input[type=radio]:checked+label::before {
+
+}
+
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:focus,
+.dropdown-menu>.active>a:hover {
+	background: var(--main-bg-color) !important;
+}
+
+.btn.active,
+.btn.active:focus,
+.btn:active,
+.btn:active:focus,
+.btn:focus {
+	border-color: #4967ff !important;
+}
+
+.btn-info:hover {
+	border-color: transparent;
+}
+
+
+/**************/
+
+#top_search_button button {
+	color: #008aff !important;
+}
+
+#side-menu li.active>a {
+	border-color: #4967ff !important;
+}
+
+
+
+#widget-top_stats i {
+	color: black !important;
+	background-color: #efefef !important;
+}
+
+.top_stats_wrapper .progress-bar {}
+
+#widget-finance_overview .text-dark {
+	color: black !important;
+	background: #e3e8ee !important;
+}
+
+.screen-options-btn {
+	background: var(--main-bg-color) !important;
+}
+
+#widget-projects_chart .padding-5,
+#widget-tickets_chart .padding-5,
+#widget-leads_chart .padding-5,
+#widget-projects_activity .padding-5 {
+	color: black !important;
+	background: #e3e8ee !important;
+}
+
+#widget-user_data .nav li a:hover {
+	background: #d4d6d8 !important;
+	color: black !important;
+}
+
+#widget-user_data .nav .active a {
+	background: #d4d6d8 !important;
+	color: black !important;
+}
+
+.home-activity .mbot20 {
+	background: var(--main-bg-color) !important;
+}
+
+.btn.active,
+.btn:active border-color: transparent !important;
+
+}
+.activity-feed .feed-item {
+	border-left: 2px solid #3634b7 !important;
+}
+.modal-header {
+	background: var(--main-bg-color) !important;
+}
+.checkbox-primary input[type=checkbox]:checked+label::after,
+.checkbox-primary input[type=radio]:checked+label::after {
+	color: #455abe;
+}
+#side-menu.nav>li>a:focus,
+#side-menu.nav>li>a:hover {
+	border-color: #4967ff !important;
+}
+#side-menu.nav>li>a:focus,
+#side-menu.nav>li>a:hover {
+	background: rgb(255 255 255) !important;
+	color: black;
+}
+div#DataTables_Table_1_info {
+	position: relative;
+	top: 40px;
+}
+#side-menu li .nav-second-level li.active a {
+	background: #ececec !important;
+	color: #0082ff !important;
+}
+.checkbox label::after {
+	color: #3146b7;
+}
+.color_confi_btn {
+	background: var(--main-bg-color) !important;
+}
+#widget-finance_overview .show-tick {
+	background: var(--main-bg-color) !important;
+}
+#side-menu.nav>li>a:focus,
+#side-menu.nav>li>a:hover {
+	color: #333 !important;
+	background: rgba(200, 200, 200, 0.2) !important;
+}
+.navbar-nav>li>a {
+	border-right: 1px dashed #d2d6dede !important;
+}
+#menu .nav>li {
+	border-top: 1px dashed #0000002e !important;
+}
+#side-menu li.quick-links {
+	border: 0 !important;
+}
+.modal-header {
+	background: #4967ff !important;
+}
+.checkbox-primary input[type=checkbox]:checked+label::before,
+.checkbox-primary input[type=radio]:checked+label::before {
+	background-color: #ffffff !important;
+	border-color: #4967ff !important;
+}
+.checkbox-primary input[type=checkbox]:checked+label::after,
+.checkbox-primary input[type=radio]:checked+label::after {
+	color: #4967ff !important;
+}
+.color_confi_btn {
+	background: #4967ff !important;
+}
+.screen-options-btn {
+	color: black !important;
+}
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:focus,
+.dropdown-menu>.active>a:hover {
+	color: #333;
+	background-color: #e3e8ee !important;
+}
+
+/****/
+#side-menu li.dashboard_user {
+	color: black;
+}
+.dropdown-quick-links i {
+	color: black;
+}
+.navbar-nav>li>a {
+	color: black;
+}
+#top_search input {
+	background: rgba(200, 200, 200, 0.2) !important
+}
+#top_search_button button {
+	background-color: transparent !important;
+	color: #000000 !important;
+}
+.hide-menu {
+	color: black !important;
+}
+#logo a {
+	color: black;
+}
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li>a:focus,
+.nav-tabs>li>a:hover {
+	color: #4967ff;
+}
+
+
+ul#setup-menu {
+    background: var(--main-bg-color) !important;
+}
+
+
+#setup-menu>li>a {
+    color: black;}
+
+ul#setup-menu li {
+    border-top: 1px dashed #0a0a0a3b !important;
+
+}
+
+#setup-menu .customizer-heading {
+  
+    color: black;
+}
+
+#setup-menu li>a{border-left: 6px solid transparent}
+
+
+#setup-menu>li>a:hover{    border-color: #4967ff !important;}
+
+#setup-menu li.active>a{border-left: 6px solid #4967ff}
+
+
+#home_tab_tasks a.mbot20.inline-block.full-width {
+    color: #ffffff;
+    background-color: #4967ff !important;
+}
+
+
+#widget-finance_overview .show-tick {
+    border: 1px solid #e3e8f2;
+    padding: 2px 10px;
+    margin-bottom: 10px;
+    background: #4967ff !important;
+}
+
+
+#setup-menu li .nav-second-level li.active a {
+    background-color: #4967ff;}
+
+
+.navbar-nav>li>a {
+    color: black !important;
+}
+
+#header .icon svg {
+    color: black !important;
+}
+
+.header-timers{
+    border-right: 1px dashed #d2d6dede !important;}
+
+
+
+
+.mobile-menu-toggle, .open-customizer-mobile {
+    color: black !important;
+}
+
+
+.mobile-icon-menu svg {
+    color: black !important;
+}
+
+#widget-user_data .nav .active a i {
+    color: black !important;
+}

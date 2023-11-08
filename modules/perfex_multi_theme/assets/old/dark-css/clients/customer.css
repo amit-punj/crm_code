@@ -1,0 +1,669 @@
+/*******ROOT CSS COLOR********/
+
+:root {
+	--main-bg-color: #1a202e;
+	--white-bg-color: #fff;
+	--header-search-bg: rgba(0, 0, 0, .2);
+	--black-text-color: #000;
+	--menu-hover-bg: rgba(200, 200, 200, 0.2);
+}
+
+
+/*******CLOSE********/
+
+.header {
+	height: 100%;
+	width: 250px;
+	top: 0;
+	left: 0;
+	background: var(--main-bg-color);
+	position: fixed;
+	z-index: 999;
+	transition: .5s;
+	padding-top: 0px;
+}
+
+#wrapper {
+	margin-left: 250px;
+	padding: 70px 35px;
+}
+
+.navbar .container {
+	width: auto;
+	padding: 0;
+}
+
+.navbar-right {
+	float: inherit !important;
+	padding: 0 0px;
+	height: 97vh;
+	overflow-y: auto;
+	padding-bottom: 20vh;
+	width: 100%;
+}
+
+.navbar-nav>li {
+	float: inherit;
+}
+
+.navbar-header {
+	float: inherit;
+}
+
+.navbar-default .navbar-nav>li>a {
+	line-height: initial;
+}
+
+.navbar-collapse {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.dropdown-menu {
+    background-color: #202b46 !important;
+}
+
+.dropdown-menu>li>a {
+
+    color: white;
+}
+
+.section-statement .dropdown-menu.inner .active.selected {
+    color: #fff !important;
+    background-color: #1a202e !important;
+}
+
+
+
+.section-statement .btn-default {
+    background-color: #212b46;}
+
+.section-statement .table-bordered td{background-color: #212b46;}
+
+.navbar-default .navbar-brand.logo-text {
+	font-size: 30px;
+	margin-top: 0px;
+	display: block;
+	color: #fff;
+	width: 100%;
+	text-align: left;
+	padding: 15px;
+	font-weight: 700;
+	padding-left: 30px;
+}
+
+.navbar-nav::-webkit-scrollbar {
+	width: 10px;
+}
+
+
+/* Track */
+
+.navbar-nav::-webkit-scrollbar-track {
+	background: #e4e5e7;
+}
+
+
+/* Handle */
+
+.navbar-nav::-webkit-scrollbar-thumb {
+	background: #8a83c7;
+}
+
+
+/* Handle on hover */
+
+.navbar-nav::-webkit-scrollbar-thumb:hover {
+	background: #415165;
+}
+
+#theme-navbar-collapse {
+	/*	border-top: 2px solid white;*/
+	padding-top: 1px;
+	margin-top: 0px;
+}
+
+.customers-nav-item-profile {
+	position: absolute !important;
+	top: 0;
+	right: 0;
+}
+
+.navbar-nav>li>a {
+	padding: 12px 10px;
+}
+
+.submenu {
+	display: inline-block;
+	float: inherit;
+	margin-bottom: 6px;
+	padding: 18px 40px;
+	width: 100%;
+	background: var(--main-bg-color);
+	position: absolute;
+	z-index: 9;
+	left: 0;
+	right: 0;
+	padding-left: 25px;
+	top: 0;
+}
+
+.container {
+	width: auto;
+	padding: 0;
+}
+
+.dropdown-submenu>.dropdown-menu {
+	top: 36px;
+	left: 0%;
+}
+
+.submenu li a {
+	color: #ffffff!important;
+}
+
+h3#greeting {
+	padding: 7px 0px;
+}
+
+.btn {
+	color: white !important;
+	border-color: transparent !important;
+}
+
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:focus,
+.dropdown-menu>.active>a:hover {
+	background-color: var(--main-bg-color) !important;
+	color: white !important;
+	border-color: transparent !important;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li>a:focus,
+.nav-tabs>li>a:hover {
+	border: 0;
+	border-radius: 0;
+	border-bottom: #202b46;
+	background: #333;
+	color: #fff;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+	background: #202b45 !important;
+	border-color: var(--main-bg-color) !important;
+	border-radius: 100%;
+}
+
+.dz-default span {
+	color: var(--main-bg-color)
+}
+
+.container #wrapper {
+	margin-left: 0;
+	padding: 40px 17px;
+}
+
+.checkbox-primary input[type=checkbox]:checked+label::before,
+.checkbox-primary input[type=radio]:checked+label::before {
+	background-color: var(--main-bg-color);
+	border-color: var(--main-bg-color);
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+	color: white;
+}
+
+
+/******/
+
+body {
+	background-color: #202b46 !important;
+	color: white;
+}
+
+.navbar a.navbar-brand {
+	padding: 4px 34px;
+}
+
+.projects-status a {
+	background: var(--main-bg-color) !important;
+	border: 1px dashed #ffffff38 !important;
+	background-clip: initial;
+	border-radius: 5px;
+	margin-bottom: 1.3rem;
+	text-align: center
+}
+
+.list-status h3 {
+	margin-top: 0;
+	font-weight: 400;
+	color: white;
+	font-size: 25px;
+	margin-bottom: 9px;
+	border-bottom: 1px solid #dedede82;
+	padding-bottom: 7px;
+}
+
+.bootstrap-select.open .btn-default {
+	border: 1px solid #3142b7!important;
+}
+
+.uneditable-input:focus,
+input[type=color]:focus,
+input[type=date]:focus,
+input[type=datetime-local]:focus,
+input[type=datetime]:focus,
+input[type=email]:focus,
+input[type=file]:focus,
+input[type=month]:focus,
+input[type=number]:focus,
+input[type=password]:focus,
+input[type=search]:focus,
+input[type=tel]:focus,
+input[type=text]:focus,
+input[type=time]:focus,
+input[type=url]:focus,
+input[type=week]:focus,
+select.form-control:focus,
+textarea.form-control:focus {
+	border-color: #bfcbd9;
+}
+
+.input-group .form-control {
+	height: 38px;
+}
+
+.navbar-nav>li {
+	float: inherit;
+	border-top: 1px dashed #e3ebf62e;
+}
+
+.navbar-default .navbar-nav>li>a {
+	padding-left: 20px;
+}
+
+.col-md-2.list-status.ticket-status a {
+	margin-bottom: 20px;
+	border: 1px dashed #626f8063;
+}
+
+.submenu li a:active,
+.submenu li a:focus,
+.submenu li a:hover {
+	color: #ffffff!important;
+}
+
+.customers-nav-item-profile {
+	border: 0 !important
+}
+
+li.customers-nav-item-knowledge-base {
+	padding: 8px;
+}
+
+.dropdown-submenu {
+	position: relative;
+	width: 100%;
+}
+
+.dropdown-menu li {
+	border-bottom: 1px dotted #d5d7d9;
+}
+
+.table.items thead {
+	background: var(--main-bg-color) !important;
+}
+
+.inner.mtop20.proposal-html-tabs {
+	background-color: var(--main-bg-color) !important;
+	padding: 13px;
+}
+
+.nav.nav-tabs.nav-tabs-flat.mbot15 {
+	margin-bottom: 0
+}
+
+address {
+	margin-bottom: 0 !important;
+}
+
+hr {
+	margin-top: 0;
+}
+
+.nav-tabs-flat li:first-child a {
+	padding-left: 14px;
+}
+
+.inner.mtop20.contract-html-tabs {
+	background-color: black;
+	padding: 8px;
+}
+
+.invoice-quick-info .col-md-3 .row {
+	margin-bottom: 26px;
+	border: 1px dashed #626f8063;
+	padding: 17px 0;
+}
+
+.row {
+	margin-right: inherit;
+	margin-left: inherit;
+}
+
+.pagination>.disabled>a,
+.pagination>.disabled>a:focus,
+.pagination>.disabled>a:hover,
+.pagination>.disabled>span,
+.pagination>.disabled>span:focus,
+.pagination>.disabled>span:hover {
+	border-color: transparent;
+}
+
+.progress.no-margin {
+	margin-top: 10px !important;
+}
+
+.new-ticket {
+	margin-bottom: 10px !important
+}
+
+.panel_s>.panel-heading {
+	background-color: #1a202e !important;
+	border: 1px solid #e4e5e742;
+	COLOR: WHITE;
+}
+
+li.customers-nav-item-login {
+	padding-left: 26px;
+}
+
+.login-form .panel_s .panel-body {
+	background: var(--main-bg-color);
+	border: 1px solid #e1e3e6;
+}
+
+.login-form .control-label,
+label {
+	color: white;
+}
+
+.login-form .btn {
+	background: #5c77ff !important;
+	color: white !important;
+}
+
+.login-form .dropdown-toggle {
+	background: white !important;
+	color: black !important
+}
+
+.login-form a {
+	color: white
+}
+
+.ticket-info .col-md-4,
+.ticket-info .col-md-8 {
+	padding: 0
+}
+
+.ticket-info .col-md-12 {
+	padding: 0;
+}
+
+.panel_s .panel-body {
+	background: var(--main-bg-color) !important;
+	border: 1px solid #232323;
+}
+
+.bootstrap-select .btn-default {
+	background: #202b46 !important;
+	border: 1px solid #bfcbd966!important;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: #ffffff!important;
+}
+
+.pagination>.disabled>a,
+.pagination>.disabled>a:focus,
+.pagination>.disabled>a:hover,
+.pagination>.disabled>span,
+.pagination>.disabled>span:focus,
+.pagination>.disabled>span:hover {
+	background-color: transparent !important;
+}
+
+.form-control {
+	color: white !important;
+	border: 1px solid #bfcbd936;
+	background-color: #202b46 !important;
+}
+
+.input-group-addon {
+	background-color: #202b46;
+	border: 1px solid #414d65;
+}
+
+h4.no-margin.section-text {
+	color: white;
+}
+
+a {
+	color: #b1b1b1;
+}
+
+.table thead tr th {
+	border: 1px solid #635f5f3b!important;
+	border-left: 0!important;
+	border-right: 0!important;
+	color: white !important;
+}
+
+.nav-tabs-flat li a {
+	color: white;
+}
+
+.nav.nav-tabs.nav-tabs-flat.mbot15 {
+	margin-bottom: 0;
+	border-bottom: 1px solid #e0e0e0a6;
+}
+
+.list-status a.active {
+	background: TRANSPARENT;
+}
+
+.col-md-4.ticket-info {
+	color: white
+}
+
+.col-md-4.ticket-info p {
+	color: white
+}
+
+footer {
+	background: #1a202e;
+	padding: 15px;
+	width: 100%;
+	height: 50px;
+	border-top: 1px solid #e4e5e766;
+	color: white;
+}
+
+.uneditable-input,
+input[type=color],
+input[type=date],
+input[type=datetime-local],
+input[type=datetime],
+input[type=email],
+input[type=file],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week],
+select.form-control,
+textarea.form-control {
+	border: 1px solid #bfcbd936;
+}
+
+.panel_s>.panel-footer {
+	background: #1a202e;
+	border: 1px solid #e4e5e71a;
+}
+
+hr {
+	border-top: 1px solid #eeeeee26;
+}
+
+p {
+	color: white;
+}
+
+.control-label,
+label {
+	color: #ffffff;
+}
+
+#proposal-wrapper .btn {
+	background: var(--main-bg-color) !important;
+}
+
+.kb-search-jumbotron {
+	background: var(--main-bg-color) !important;
+}
+
+.text-left.estimates-stats .col-md-3 .row {
+	margin-bottom: 26px;
+	border: 1px dashed #626f8063;
+	padding: 17px 0;
+}
+
+.preview-sticky-header {
+	z-index: 1;
+	background: #202b46;
+}
+
+.preview-sticky-container .btn {
+	background-color: #1a202e !important;
+	border-color: #1a202e !important;
+}
+
+
+.s-status {
+   
+    color: white;
+}
+
+
+address.proposal-html-company-info b {
+    color: white !important;
+    display: inline-block;
+    margin-top: 9px;
+}
+
+.proposal-items-preview td.description span {
+    color: white !important;
+}
+
+
+
+.identity-confirmation #wrapper {
+    margin-left: 0;
+    padding: 0px 35px;
+}
+
+.identity-confirmation #wrapper .panel_s .panel-body{background-color: transparent !important;
+    border: 0;}
+
+/******************/
+
+
+/*Mobile*/
+@media (max-width:767px) {
+    
+  #wrapper {
+    margin-left: 0;
+    padding: 70px 5px;
+}
+
+
+.navbar-default .navbar-brand.logo-text {
+   
+    width: 55%;
+    text-align: left;
+    padding: 21px 15px !important;
+    font-weight: 700;
+    padding-left: 0;
+}
+
+    .navbar-right {
+    margin: 0;
+}
+    
+    .navbar-default .navbar-nav>li>a {
+    padding-left: 40px;
+}
+    
+    .customers-nav-item-profile .dropdown-toggle {
+
+    padding-left: 0 !important;
+}
+    
+ 
+    .section-client-dashboard {
+    padding: 0;
+}
+    
+    
+    #content {
+    padding: 5px;
+}
+    
+    .header {
+        height: auto;
+        width: 100%;}
+    
+    .navbar-right {
+  
+    height: auto;
+    overflow-y: auto;
+    padding-bottom: 15px;
+    width: 100%;
+}
+    
+    
+    .customers-nav-item-profile {
+    position: static !important;
+    top: 0;
+    right: 0;
+    padding: 0 40px;
+}
+    
+    .dropdown-menu li {
+    border-bottom: 0;
+}
+    .dropdown-menu li a{padding: 5px 1px !important;}
+    
+    .navbar-toggle {
+    margin-top: 13px;
+}
+    
+    
+}
