@@ -116,6 +116,7 @@ class Clients_model extends App_Model
      */
     public function add($data, $withContact = false)
     {
+        
         $contact_data = [];
         // From Lead Convert to client
         if (isset($data['send_set_password_email'])) {
@@ -1248,7 +1249,13 @@ class Clients_model extends App_Model
             $result[0]['billing_street']  = clear_textarea_breaks($result[0]['billing_street']);
             $result[0]['shipping_street'] = clear_textarea_breaks($result[0]['shipping_street']);
         }
-
+        if(get_option('company_default_country') == 102){
+            $result[0]['shipping_street']   = (!empty($result[0]['shipping_street']))  ? $result[0]['shipping_street'] : $result[0]['billing_street'];
+            $result[0]['shipping_city']     = (!empty($result[0]['shipping_city']))    ? $result[0]['shipping_city'] : $result[0]['billing_city'];
+            $result[0]['shipping_state']    = (!empty($result[0]['shipping_state']))   ? $result[0]['shipping_state'] : $result[0]['billing_state'];
+            $result[0]['shipping_zip']      = (!empty($result[0]['shipping_zip']))     ? $result[0]['shipping_zip'] : $result[0]['billing_zip'];
+            $result[0]['shipping_country']  = (!empty($result[0]['shipping_country'])) ? $result[0]['shipping_country'] : $result[0]['billing_country'];
+        }
         return $result;
     }
 

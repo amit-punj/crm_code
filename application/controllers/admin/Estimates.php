@@ -138,7 +138,13 @@ class Estimates extends AdminController
         }
 
         $this->load->model('taxes_model');
-        $data['taxes'] = $this->taxes_model->get();
+        if(get_option('company_default_country') == 102){
+            $data['taxes'] = $this->taxes_model->get_indian_enable_taxes();
+        } else {
+            $data['taxes'] = $this->taxes_model->get();
+        }
+
+        // $data['taxes'] = $this->taxes_model->get();
         $this->load->model('currencies_model');
         $data['currencies'] = $this->currencies_model->get();
 

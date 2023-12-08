@@ -1,7 +1,7 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed'); ?>
 <div id="header">
     <div class="hide-menu tw-ml-1"><i class="fa fa-align-left"></i></div>
-
+    <input type='hidden' id='company_default_country' value="<?php echo get_option('company_default_country'); ?>"/>
     <nav>
         <div class="tw-flex tw-justify-between">
             <div class="tw-flex tw-flex-1 sm:tw-flex-initial">

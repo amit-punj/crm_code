@@ -4140,3 +4140,2997 @@ ERROR - 2023-11-10 16:18:34 --> Severity: Warning --> Attempt to read property "
 ERROR - 2023-11-10 16:18:34 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
 ERROR - 2023-11-10 16:18:34 --> Could not find the language line "Video Library"
 ERROR - 2023-11-10 16:18:34 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 16:35:03 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 16:35:03 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 16:35:03 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 16:35:03 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 16:35:03 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 16:35:05 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 16:35:05 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 16:35:05 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 16:35:05 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 20:56:59 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 20:56:59 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 20:56:59 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 20:56:59 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 20:56:59 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 20:56:59 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 20:56:59 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 20:56:59 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 20:56:59 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 20:56:59 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 20:56:59 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 20:56:59 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 20:56:59 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 20:56:59 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 20:56:59 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 20:56:59 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 20:56:59 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 20:56:59 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 20:56:59 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 20:56:59 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 20:56:59 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 20:57:00 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:00 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:00 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:00 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:00 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:00 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:00 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:00 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:00 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:00 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:00 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:00 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:00 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:00 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:00 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 20:57:00 --> Could not find the language line "GST"
+ERROR - 2023-11-10 20:57:00 --> Could not find the language line "State"
+ERROR - 2023-11-10 20:57:00 --> Could not find the language line "No State Selelcted"
+ERROR - 2023-11-10 20:57:00 --> Severity: Warning --> Attempt to read property "gst_number" on null C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 114
+ERROR - 2023-11-10 20:57:00 --> Severity: Warning --> Attempt to read property "gst_number" on null C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 115
+ERROR - 2023-11-10 20:57:00 --> Severity: Warning --> Attempt to read property "enable_default_gst" on null C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 134
+ERROR - 2023-11-10 20:57:00 --> Severity: Warning --> Attempt to read property "enable_default_gst" on null C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 138
+ERROR - 2023-11-10 20:57:00 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 20:57:00 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 20:57:00 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 20:57:00 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 20:57:00 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 20:57:02 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 20:57:02 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:02 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 20:57:03 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 20:57:03 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:03 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 20:57:04 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 20:57:04 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 20:57:04 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 20:57:04 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 20:57:28 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 20:57:28 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 20:57:28 --> Could not find the language line "GST"
+ERROR - 2023-11-10 20:57:28 --> Could not find the language line "State"
+ERROR - 2023-11-10 20:57:28 --> Could not find the language line "No State Selelcted"
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "gst_number" on null C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 114
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "gst_number" on null C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 115
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "enable_default_gst" on null C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 134
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Attempt to read property "enable_default_gst" on null C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 138
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 20:57:28 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 20:57:30 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 20:57:30 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 20:57:30 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 20:57:30 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:30 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 20:57:31 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 20:57:31 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 20:57:31 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 20:57:31 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 20:57:36 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 20:57:36 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:36 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 20:57:43 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 20:57:43 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:43 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 20:57:45 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 20:57:45 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 20:57:45 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 20:57:45 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 20:57:46 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 20:57:46 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 20:57:46 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 20:57:46 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 20:57:46 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 20:57:47 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 20:57:47 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:47 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 20:57:49 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 20:57:49 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 20:57:49 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 20:57:49 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 20:57:50 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 20:57:50 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:50 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 20:57:51 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 20:57:51 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 20:57:51 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 20:57:52 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 20:57:52 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 20:57:52 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 20:57:52 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:02:16 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:02:16 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:02:16 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:02:16 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:02:16 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:02:16 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:02:16 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:02:16 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:02:16 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:02:16 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:02:16 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:02:16 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:02:16 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:02:16 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:02:16 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:02:16 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:02:16 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:02:16 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:02:16 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:02:16 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:02:16 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:02:16 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:02:16 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:02:16 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:02:16 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:02:17 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:17 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:17 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:17 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:17 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:17 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:17 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:17 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:17 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:17 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:17 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:17 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:17 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:17 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:17 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:02:25 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:02:25 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:02:25 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:02:25 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:25 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:02:26 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:02:26 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:02:26 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:02:26 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:02:40 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:02:40 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:02:40 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:02:40 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:02:41 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:02:41 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:02:41 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:02:41 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:02:44 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:02:44 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:44 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:02:45 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:02:45 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:45 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:02:46 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:02:46 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:02:46 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:02:47 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:02:47 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:02:47 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:02:47 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:03:09 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:03:09 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:09 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:03:10 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:03:10 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:03:10 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:03:10 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:03:10 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:03:10 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:03:10 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:03:10 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:03:10 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:03:11 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:03:11 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:11 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:03:12 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:03:12 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:03:12 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:03:12 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:12 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:03:13 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:03:13 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:03:13 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:03:13 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:03:13 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:03:14 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:14 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:14 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:14 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:14 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:14 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:14 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:14 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:14 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:14 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:14 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:14 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:14 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:14 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:03:14 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:03:14 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:03:14 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:03:14 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:03:14 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:04:16 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:04:16 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:04:16 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:04:16 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:04:32 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:04:32 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:04:32 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:04:32 --> Severity: error --> Exception: Unknown column 'vat_id' in 'field list' C:\xampp\htdocs\latest_crm\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:05:32 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:05:32 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:05:32 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:07:00 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:07:00 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:00 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:07:00 --> Severity: error --> Exception: Unknown column 'vat_id' in 'field list' C:\xampp\htdocs\latest_crm\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:07:10 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:07:10 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:10 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:07:10 --> Severity: error --> Exception: Unknown column 'vat_id' in 'field list' C:\xampp\htdocs\latest_crm\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:07:15 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:07:15 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:07:15 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:07:15 --> Severity: error --> Exception: Unknown column 'vat_id' in 'field list' C:\xampp\htdocs\latest_crm\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:08:02 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:08:02 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:02 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:08:02 --> Severity: error --> Exception: Unknown column 'vat_id' in 'field list' C:\xampp\htdocs\latest_crm\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:08:08 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:08:08 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:08 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:08:08 --> Severity: error --> Exception: Unknown column 'vat_id' in 'field list' C:\xampp\htdocs\latest_crm\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:08:27 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:08:27 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:08:27 --> Severity: error --> Exception: Unknown column 'vat_id' in 'field list' C:\xampp\htdocs\latest_crm\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2023-11-10 21:08:27 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\latest_crm\system\core\Exceptions.php:271) C:\xampp\htdocs\latest_crm\system\core\Common.php 574
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:12:32 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:12:32 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:12:32 --> Severity: error --> Exception: Unknown column 'vat_id' in 'field list' C:\xampp\htdocs\latest_crm\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2023-11-10 21:12:32 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\latest_crm\system\core\Exceptions.php:271) C:\xampp\htdocs\latest_crm\system\core\Common.php 574
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:12:43 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:12:43 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:12:43 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:12:43 --> Severity: error --> Exception: Unknown column 'vat_id' in 'field list' C:\xampp\htdocs\latest_crm\system\database\drivers\mysqli\mysqli_driver.php 307
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:16:14 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:16:14 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:14 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:16:16 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:16:16 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:16:16 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:16:16 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:16:16 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:16:16 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:16:16 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:16:16 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:16:16 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:16:16 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:16:16 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:16:16 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:16:16 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:16:16 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:16:16 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:16:16 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:16:16 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:16:16 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:16:16 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:16:16 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:16:16 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:16:16 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:16 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:16:17 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:16:17 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:16:17 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:16:17 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:17 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:16:18 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:16:18 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:16:18 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:16:18 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:16:19 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:16:19 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:16:19 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:16:19 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:16:19 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:16:20 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:16:20 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:16:20 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:16:44 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:16:44 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:16:44 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:16:44 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:44 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:16:47 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:16:47 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:47 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:16:48 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:16:48 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:16:48 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:16:48 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:16:48 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:16:57 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:16:57 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:57 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:16:59 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:16:59 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:16:59 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:17:00 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:17:00 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:00 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:17:01 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:17:01 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:17:01 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:17:01 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:17:07 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:17:07 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:17:07 --> Could not find the language line "GST"
+ERROR - 2023-11-10 21:17:07 --> Could not find the language line "State"
+ERROR - 2023-11-10 21:17:07 --> Could not find the language line "No State Selelcted"
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "gst_number" on null C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 114
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "gst_number" on null C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 115
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "enable_default_gst" on null C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 134
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Attempt to read property "enable_default_gst" on null C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 138
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 21:17:07 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:17:09 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:17:09 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:09 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:17:10 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:17:10 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:10 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:17:11 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:17:11 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:17:11 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:17:11 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:17:25 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:17:25 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:25 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:17:26 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:17:26 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:26 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:17:27 --> Could not find the language line "GST"
+ERROR - 2023-11-10 21:17:27 --> Could not find the language line "State"
+ERROR - 2023-11-10 21:17:27 --> Could not find the language line "No State Selelcted"
+ERROR - 2023-11-10 21:17:27 --> Severity: Warning --> Attempt to read property "gst_number" on null C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 114
+ERROR - 2023-11-10 21:17:27 --> Severity: Warning --> Attempt to read property "gst_number" on null C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 115
+ERROR - 2023-11-10 21:17:27 --> Severity: Warning --> Attempt to read property "enable_default_gst" on null C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 134
+ERROR - 2023-11-10 21:17:27 --> Severity: Warning --> Attempt to read property "enable_default_gst" on null C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 138
+ERROR - 2023-11-10 21:17:27 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 21:17:27 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 21:17:27 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 21:17:27 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 21:17:27 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 21:17:27 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:17:29 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:17:29 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:17:29 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:17:29 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:29 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:17:30 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:17:30 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:30 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:17:31 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:17:31 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:17:31 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:17:31 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:17:32 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:17:32 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:32 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:17:33 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:17:33 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:33 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:17:34 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:17:34 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:17:34 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:17:34 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:17:41 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:17:41 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:17:41 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:17:41 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:17:41 --> Could not find the language line "GST"
+ERROR - 2023-11-10 21:17:41 --> Could not find the language line "State"
+ERROR - 2023-11-10 21:17:41 --> Could not find the language line "No State Selelcted"
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "gst_number" on null C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 114
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "gst_number" on null C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 115
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "enable_default_gst" on null C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 134
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Attempt to read property "enable_default_gst" on null C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 138
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 21:17:41 --> Severity: Warning --> Undefined array key "gst_code" C:\xampp\htdocs\latest_crm\application\views\admin\settings\includes\company.php 166
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:17:45 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:17:45 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:17:45 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:17:45 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:17:45 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:17:46 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:17:46 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:17:46 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:17:46 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:21:30 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:21:30 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:30 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:21:32 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:21:32 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:21:32 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:21:32 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:32 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:21:33 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:21:33 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:21:33 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:21:33 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:21:34 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:21:34 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:21:34 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:21:34 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:21:36 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:21:36 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:21:36 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:21:36 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:21:52 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:21:52 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:21:52 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:22:31 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:22:32 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:22:32 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:32 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:22:33 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:22:33 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:33 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:22:35 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:22:35 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:35 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:22:36 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:22:36 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:22:36 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:22:37 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:22:37 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:22:37 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:22:37 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:26:08 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:26:08 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:26:08 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:26:08 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:26:08 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:26:08 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:26:08 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:26:08 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:26:08 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:26:09 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:26:09 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:26:09 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:26:09 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:26:09 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:26:09 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:26:09 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:26:09 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:26:09 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:26:09 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:26:09 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:26:09 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:26:09 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:09 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:09 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:09 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:09 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:09 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:09 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:09 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:09 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:09 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:09 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:09 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:09 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:09 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:09 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:26:10 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:26:10 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:10 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:26:11 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:26:11 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:26:11 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:26:11 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:26:11 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:26:11 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:26:11 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:26:12 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:26:12 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:26:12 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:26:12 --> Could not find the language line "Google Drive"
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1571
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1579
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1587
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1596
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1604
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1612
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1620
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1628
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1636
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1644
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1652
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1660
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1668
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1677
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1678
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1679
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Trying to access array offset on value of type bool C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1680
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_staff_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_disk_space" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_client_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_leads_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_expense_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_tasks_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_project_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_invoice_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_contract_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_estimate_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_credit_note_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_proposal_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_item_no" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "additional_tickets" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1695
+ERROR - 2023-11-10 21:26:12 --> Severity: Warning --> Attempt to read property "modules" on null C:\xampp\htdocs\latest_crm\modules\saas\helpers\saas_helper.php 1701
+ERROR - 2023-11-10 21:26:13 --> Severity: Warning --> Attempt to read property "maintenance_mode" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 408
+ERROR - 2023-11-10 21:26:13 --> Severity: Warning --> Attempt to read property "custom_domain" on null C:\xampp\htdocs\latest_crm\modules\saas\saas.php 450
+ERROR - 2023-11-10 21:26:13 --> Could not find the language line "Video Library"
+ERROR - 2023-11-10 21:26:13 --> Could not find the language line "Google Drive"

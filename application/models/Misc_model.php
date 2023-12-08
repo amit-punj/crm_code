@@ -19,7 +19,7 @@ class Misc_model extends App_Model
         return hooks()->apply_filters('notifications_limit', $this->notifications_limit);
     }
 
-    public function get_taxes_dropdown_template($name, $taxname, $type = '', $item_id = '', $is_edit = false, $manual = false)
+    public function get_taxes_dropdown_template($name, $taxname, $type = '', $item_id = '', $is_edit = false, $manual = false,$ship_state = '')
     {
         // if passed manually - like in proposal convert items or project
         if ($manual == true) {
@@ -53,7 +53,7 @@ class Misc_model extends App_Model
         $this->load->model('taxes_model');
         // $taxes = $this->taxes_model->get();
         if(get_option('company_default_country') == 102){
-            $taxes = $this->taxes_model->get_indian_enable_taxes();
+            $taxes = $this->taxes_model->get_indian_enable_taxes($ship_state);
         } else {
             $taxes = $this->taxes_model->get();
         }

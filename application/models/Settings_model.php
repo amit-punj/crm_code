@@ -194,6 +194,43 @@ class Settings_model extends App_Model
             return ( $result ) ? true : false;
         }
     }
+    function einvoice_update($data, $id=''){
+        if($id == '') {
+            // pr('inside insert function');
+            $this->db->insert( db_prefix() . '_einvoices' , $data);
+            $abc =  ($this->db->insert_id() > 0) ?  $this->db->insert_id() : false;
+            return $abc; 
+        } else{
+            // pr('inside update function block');
+            $this->db->where('id', $id);
+            $result = $this->db->update( db_prefix() . '_einvoices', $data );  
+            // pr($this->db->last_query(),1); 
+            // echo $this->db->last_query();die;
+            return ( $result ) ? true : false;
+        }
+    }
+
+    function get_errors($where) {
+        $this->db->select("CONCAT(error_code, ' - ', error_description) as error");
+        $this->db->where_in('error_code', $where);
+        $this->db->limit(25, 0); // LIMIT offset, limit
+
+        $result = $this->db->get(db_prefix() . '_eway_error_codes')->result_array();
+
+        pr($this->db->last_query());
+        return $result;
+    }
+
+    function get_error($where) {
+        $this->db->select("CONCAT(error_code, ' - ', error_description) as error");
+        $this->db->where('error_code', $where);
+        $this->db->limit(25, 0); // LIMIT offset, limit
+
+        return $this->db->get(db_prefix() . '_eway_error_codes')->row();
+
+        pr($this->db->last_query());
+        return $result;
+    }
 
     function mark_all_disable(){
         $this->db->where('user_id', get_staff_user_id());
@@ -211,11 +248,43 @@ class Settings_model extends App_Model
         }
         return $this->db->get(db_prefix() . '_gsts')->result_array();
     }
+    function get_all_einvoice($id = '')
+    {
+        $this->db->where('user_id', get_staff_user_id());
+        if (is_numeric($id)) {
+            $this->db->where('id', $id);
+            return $this->db->get(db_prefix() . '_einvoices')->row();
+        }
+        return $this->db->get(db_prefix() . '_einvoices')->result_array();
+    }
     function get_default_gst()
     {
         $this->db->where('user_id', get_staff_user_id());
         $this->db->where('enable_default_gst', 1);
-        return $this->db->get(db_prefix() . '_gsts')->row();
+        $gst =  $this->db->get(db_prefix() . '_gsts')->row();
+        if($gst){
+            $this->db->where('user_id', get_staff_user_id());
+            $this->db->where('gst_number', $gst->gst_number);
+            $gst->einvoice = $this->db->get(db_prefix() . '_einvoices')->row();
+            return $gst;
+        } 
+        return '';
+    }
+    function get_default_einvoice()
+    {
+        $this->db->where('user_id', get_staff_user_id());
+        $this->db->where('enable_default_gst', 1);
+        return $this->db->get(db_prefix() . '_einvoices')->row();
+    }
+
+    function get_einvoice($gst_number = '')
+    {
+        $this->db->where('user_id', get_staff_user_id());
+        if (is_numeric($gst_number)) {
+            $this->db->where('gst_number', $gst_number);
+            return $this->db->get(db_prefix() . '_einvoices')->row();
+        }
+        // return $this->db->get(db_prefix() . '_einvoices')->result_array();
     }
 
     public function add_new_company_pdf_field($data)

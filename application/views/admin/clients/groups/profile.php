@@ -84,18 +84,66 @@
                         <?php $value = (isset($client) ? $client->company : ''); ?>
                         <?php $attrs = (isset($client) ? [] : ['autofocus' => true]); ?>
                         <?php echo render_input('company', 'client_company', $value, 'text', $attrs); ?>
+
+                        <?php 
+                            $countries       = get_all_countries();
+                            $customer_default_country = get_option('customer_default_country');
+                            $selected                 = (isset($client) ? $client->country : $customer_default_country);
+                            if($selected == 102){
+                                $vat_hide_show  = 'hide';
+                                $hide_show      = 'show';
+                            } else {
+                                $vat_hide_show  = 'show';
+                                $hide_show      = 'hide';
+                            }
+                            echo render_select('country', $countries, [ 'country_id', [ 'short_name']], 'clients_country', $selected, ['data-none-selected-text' => _l('dropdown_non_selected_tex')]);
+                        ?>
+                        
                         <div id="company_exists_info" class="hide"></div>
                         <?php hooks()->do_action('after_customer_profile_company_field', $client ?? null); ?>
-                        <?php //echo(get_option('company_default_country')) ?>
-                        <?php if (get_option('company_requires_vat_number_field') == 1) {
-                                $value = (isset($client) ? $client->vat : '');
-                                echo render_input('vat_id', 'client_vat_number', $value);
+                        
+                        <div class="form-group vat_div <?=$vat_hide_show?>" app-field-wrapper="state">
+                            <label for="state" class="control-label">State</label>
+                            <input type="text" id="state" name="state" class="form-control" value="<?=$client->state ?? ''?>">
+                        </div>
+                        <div class="form-group gst_tab <?= $hide_show ?>">
+                            <label class="control-label" for="state"><?php echo _l('State'); ?></label>
+                            <select onchange="changeState(this);" class="selectpicker display-block" data-width="100%" name='state' data-none-selected-text="<?php echo _l('No State Selelcted'); ?>">
+                                <?php foreach ($states as $state) { ?>
+                                <option <?= ($state['state'] == $client->state) ? 'selected':''?> value="<?= $state['state']; ?>"><?=$state['state']; ?></option>
+                                <?php } ?>
+                            </select>
+                        </div>
+                        <!-- <?php $value = (isset($client) ? $client->state : ''); ?>
+                        <?php echo render_input('state', 'client_state', $value); ?> -->
+                        
+                        <?php $value = (isset($client) ? $client->city : ''); ?>
+                        <?php echo render_input('city', 'client_city', $value); ?>
+
+                        <?php $value = (isset($client) ? $client->zip : ''); ?>
+                        <?php echo render_input('zip', 'client_postal_code', $value); ?>
+                        
+                        <?php $value = (isset($client) ? $client->address : ''); ?>
+                        <?php echo render_textarea('address', 'client_address', $value); ?>
+
+                        <div class="vat_div <?=$vat_hide_show?>">
+                            <?php if (get_option('company_requires_vat_number_field') == 1) {
+                                    $value = (isset($client) ? $client->vat : '');
+                                    echo render_input('vat', 'client_vat_number', $value);
                             } ?>
-                            <?php hooks()->do_action('before_customer_profile_phone_field', $client ?? null); ?>
-                            <?php $value = (isset($client) ? $client->phonenumber : ''); ?>
-                            <?php echo render_input('phonenumber', 'client_phonenumber', $value); ?>
-                            <?php hooks()->do_action('after_customer_profile_company_phone', $client ?? null); ?>
-                            <?php if ((isset($client) && empty($client->website)) || !isset($client)) {
+                        </div>
+                        <div class="form-group gst_tab <?=$hide_show?>" app-field-wrapper="gst_number">
+                            <label for="gst_number" class="control-label">GST Number <?= $this->input->get('tab')?></label>
+                            <div class="merged-input-box">
+                            <input type="text" id="gst_code"   <?= ($selected == 102) ? 'required':'' ?>  name="gst_code" class="form-control gst_code1" value="<?=$client->gst_number?substr($client->gst_number,0,2):''?>" readonly>
+                            <input type="text" id="gst_number" <?= ($selected == 102) ? 'required':'' ?>  name="gst_number" class="form-control gst_number1" maxlength="13" minlength="13" value="<?=$client->gst_number?substr($client->gst_number,2):''?>">
+                            </div>
+                        </div>    
+                        <?php hooks()->do_action('before_customer_profile_phone_field', $client ?? null); ?>
+                        <?php $value = (isset($client) ? $client->phonenumber : ''); ?>
+                        <?php echo render_input('phonenumber', 'client_phonenumber', $value); ?>
+                        <?php hooks()->do_action('after_customer_profile_company_phone', $client ?? null); ?>
+                        <?php if ((isset($client) && empty($client->website)) || !isset($client)) {
                             $value = (isset($client) ? $client->website : '');
                             echo render_input('website', 'client_website', $value);
                         } else { ?>
@@ -173,22 +221,7 @@
                             </div>
                             <?php } ?>
                         </div>
-
                         <hr />
-
-                        <?php $value = (isset($client) ? $client->address : ''); ?>
-                        <?php echo render_textarea('address', 'client_address', $value); ?>
-                        <?php $value = (isset($client) ? $client->city : ''); ?>
-                        <?php echo render_input('city', 'client_city', $value); ?>
-                        <?php $value = (isset($client) ? $client->state : ''); ?>
-                        <?php echo render_input('state', 'client_state', $value); ?>
-                        <?php $value = (isset($client) ? $client->zip : ''); ?>
-                        <?php echo render_input('zip', 'client_postal_code', $value); ?>
-                        <?php $countries       = get_all_countries();
-                            $customer_default_country = get_option('customer_default_country');
-                            $selected                 = (isset($client) ? $client->country : $customer_default_country);
-                            echo render_select('country', $countries, [ 'country_id', [ 'short_name']], 'clients_country', $selected, ['data-none-selected-text' => _l('dropdown_non_selected_tex')]);
-                        ?>
                     </div>
                 </div>
             </div>

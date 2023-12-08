@@ -1,6 +1,7 @@
 <?php
-
 defined('BASEPATH') or exit('No direct script access allowed');
+
+require_once('vendor/autoload.php');
 
 class Invoices extends AdminController
 {
@@ -9,6 +10,8 @@ class Invoices extends AdminController
         parent::__construct();
         $this->load->model('invoices_model');
         $this->load->model('credit_notes_model');
+        $this->load->model('settings_model');
+        // $this->load->library('curl');
     }
 
     /* Get all invoices in case user go on index page */
@@ -16,8 +19,58 @@ class Invoices extends AdminController
     {
         $this->list_invoices($id);
     }
+    public function makeApiCall() {
+        try {
+            $clientId       = get_option('company_client_id');
+            $clientSecret   = get_option('company_client_secret');
+            //Create guzzle http client
+            $client = new \GuzzleHttp\Client(); 
+            $response = $client->request('POST', 'https://staging.fynamics.co.in/api/authenticate', [
+                'headers' => [
+                    'accept' => 'application/json',
+                    'clientId' => $clientId,
+                    'clientSecret' => $clientSecret,
+                ],
+            ]);
 
-    /* List all invoices datatables */
+            $body = $response->getBody();
+            // Output the response
+            $bearer_token = json_decode($body)->data->accessToken;
+            
+            if ($bearer_token) {
+                $post_data['settings']['company_bearer_token'] = $bearer_token;
+            }
+            $success = $this->settings_model->update($post_data);
+            pr(json_decode($body)->data->accessToken,1);
+
+            $response = $client->request('POST', 'https://staging.fynamics.co.in/api/eway/enhanced/authentication', [
+                'body' => '{"action":"ACCESSTOKEN","username":"FYNTRAINING","password":"Fyn@2022"}',
+                'headers' => [
+                    'accept' => 'application/json',
+                    'authorization' => 'Bearer a6a2d1bc1f60a7c99f4234db00bac08e8e01ae66dc67129104c22e1168bf4aac78a69fdeb2ed0eb86bf8e02ef769a8bddb972bd8df50e339d2cdc6df6d0252ca6d2f713b6c05bf9fcfd0b288e31fe36fdc804868f731873bfcb8725e84b10df069f47fbb96ec6af8bb2dacd8f1d01f33462f9201d66cb126',
+                    'content-type' => 'application/json',
+                    'gstin' => '29AASCS4555K1ZH',
+                ],
+            ]);
+            // Get the response body
+            $body = $response->getBody();
+            // Output the response
+            pr(json_decode($body),1);
+        } catch (\RequestException $e) {
+            // Guzzle exception handling
+            if ($e->hasResponse()) {
+                echo 'HTTP response status: ' . $e->getResponse()->getStatusCode() . PHP_EOL;
+                echo 'Response body: ' . $e->getResponse()->getBody();
+            } else {
+                echo 'Request failed: ' . $e->getMessage();
+            }
+        } catch (\Exception $e) {
+            // Catch any other exceptions
+            echo 'An unexpected error occurred: ' . $e->getMessage();
+        }
+    }
+
+    /* List all invoices datatables */  
     public function list_invoices($id = '')
     {
         if (!has_permission('invoices', '', 'view')
@@ -78,7 +131,7 @@ class Invoices extends AdminController
     {
         if ($this->input->is_ajax_request()) {
             $this->load->model('projects_model');
-            $data                     = [];
+            $data  = [];
             $data['billing_shipping'] = $this->clients_model->get_customer_billing_and_shipping_details($customer_id);
             $data['client_currency']  = $this->clients_model->get_customer_default_currency($customer_id);
 
@@ -100,7 +153,24 @@ class Invoices extends AdminController
             $__data['expenses_to_bill'] = !isset($current_invoice_status) || (isset($current_invoice_status) && $current_invoice_status != Invoices_model::STATUS_CANCELLED) ? $this->invoices_model->get_expenses_to_bill($customer_id) : [];
 
             $data['expenses_bill_info'] = $this->load->view('admin/invoices/bill_expenses', $__data, true);
+            $this->load->model('taxes_model');
+            // pr($data['billing_shipping'][0][]);
+            if(get_option('company_default_country') == 102){
+                if(get_option('company_state') == $data['billing_shipping'][0]['billing_state'] ){
+                    $taxes = $this->taxes_model->get_indian_enable_taxes($data['billing_shipping'][0]['billing_state']);
+                } else {
+                    $taxes = $this->taxes_model->get_indian_enable_taxes('');
+                }
+                // pr($taxes);
+                foreach ($taxes as $tax) {
+                    $selected = '';
+                    $select .= '<option value="' . $tax['name'] . '|' . $tax['taxrate'] . '"' . $selected . 'data-taxrate="' . $tax['taxrate'] . '" data-taxname="' . $tax['name'] . '" data-subtext="' . $tax['name'] . '">' . $tax['taxrate'] . '%</option>';
+                }
+                $data['taxes'] = $select;
+            }
+            // pr($data);
             echo json_encode($data);
+            
         }
     }
 
@@ -293,6 +363,10 @@ class Invoices extends AdminController
     /* Add new invoice or update existing */
     public function invoice($id = '')
     {
+        // $abc=GetGstAuthToken();
+        // pr($abc,1);
+        // $abc=GetOTP();
+        // pr($abc,1);
         if ($this->input->post()) {
             $invoice_data = $this->input->post();
             if ($id == '') {
@@ -317,13 +391,29 @@ class Invoices extends AdminController
                 if ($id) {
                     set_alert('success', _l('added_successfully', _l('invoice')));
                     $redUrl = admin_url('invoices/list_invoices/' . $id);
-
                     if (isset($invoice_data['save_and_record_payment'])) {
                         $this->session->set_userdata('record_payment', true);
                     } elseif (isset($invoice_data['save_and_send_later'])) {
                         $this->session->set_userdata('send_later', true);
+                    } elseif (isset($invoice_data['create_eway_bill'])) {
+                        $invoice = $this->invoices_model->get($id);
+                        $result = create_eway_bill($invoice);
+                        if($result['status']){
+                            $success = $this->invoices_model->update_eway_bill($result['data'], $id);
+                        } else {
+                            $this->session->set_flashdata('error', $result['errors']);
+                            redirect(admin_url('invoices/invoice/' . $id));
+                        }
+                    } elseif (isset($invoice_data['create_einvoice'])) {
+                        $invoice = $this->invoices_model->get($id);
+                        $result = genarate_einvoice($invoice);
+                        if($result['status']){
+                            $success = $this->invoices_model->update_eway_bill($result['data'], $id);
+                        } else {
+                            $this->session->set_flashdata('error', $result['errors']);
+                            redirect(admin_url('invoices/invoice/' . $id));
+                        }
                     }
-
                     redirect($redUrl);
                 }
             } else {
@@ -341,11 +431,11 @@ class Invoices extends AdminController
                         'id !='      => $id,
                     ])) {
                         set_alert('warning', _l('invoice_number_exists'));
-
                         redirect(admin_url('invoices/invoice/' . $id));
                     }
                 }
                 $success = $this->invoices_model->update($invoice_data, $id);
+
                 if ($success) {
                     set_alert('success', _l('updated_successfully', _l('invoice')));
                 }
@@ -358,7 +448,9 @@ class Invoices extends AdminController
             $data['billable_tasks'] = [];
         } else {
             $invoice = $this->invoices_model->get($id);
-
+            // pr($invoice);
+            // $data = create_eway_bill($invoice);
+            // pr($invoice,1);
             if (!$invoice || !user_can_view_invoice($id)) {
                 blank_page(_l('invoice_not_found'));
             }
@@ -383,7 +475,19 @@ class Invoices extends AdminController
         ]);
 
         $this->load->model('taxes_model');
-        $data['taxes'] = $this->taxes_model->get();
+        if(get_option('company_default_country') == 102){
+            // pr($invoice->billing_state);
+            // pr(get_option('company_state'),1);
+            if(!empty($invoice) && get_option('company_state') == $invoice->billing_state ){
+                $data['taxes'] = $this->taxes_model->get_indian_enable_taxes($invoice->billing_state);
+            } else {
+                $data['taxes'] = $this->taxes_model->get_indian_enable_taxes('');
+            }
+        } else {
+            $data['taxes'] = $this->taxes_model->get();
+        }
+
+        // $data['taxes'] = $this->taxes_model->get();
         $this->load->model('invoice_items_model');
 
         $data['ajaxItems'] = false;
@@ -403,6 +507,7 @@ class Invoices extends AdminController
         $data['staff']     = $this->staff_model->get('', ['active' => 1]);
         $data['title']     = $title;
         $data['bodyclass'] = 'invoice';
+        // pr($data['invoice'],1);
         $this->load->view('admin/invoices/invoice', $data);
     }
 

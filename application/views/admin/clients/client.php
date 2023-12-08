@@ -1,5 +1,23 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed'); ?>
 <?php init_head(); ?>
+<style>
+    .hide,.vat_hide {display: none;}
+    .show,.vat_show {display: block;}
+    .merged-input-box {
+        display: flex; 
+    }
+    .gst_code1{
+        border-right-style: none;
+        border-top-right-radius: revert !important;
+        border-bottom-right-radius: revert !important;
+        width: 50px;
+    }
+    .gst_number1{
+        border-left-style: none;
+        border-top-left-radius: revert !important;
+        border-bottom-left-radius: revert !important;
+    }    
+</style>
 <div id="wrapper" class="customer_profile">
     <div class="content">
         <?php if (isset($client) && $client->registration_confirmed == 0 && is_admin()) { ?>
@@ -122,6 +140,48 @@ $(function() {
 </script>
 <?php } ?>
 <?php $this->load->view('admin/clients/client_js'); ?>
+<script>
+    $('#country').on('change', function() {
+        var val = $(this).val(); 
+        console.log(val)
+        if(val == 102){
+            $(".gst_tab").removeClass('hide');
+            $(".gst_tab").addClass('show');
+
+            $(".vat_div").removeClass('show');
+            $(".vat_div").addClass('hide');
+        } else{
+            $(".gst_tab").addClass('hide');
+            $(".gst_tab").removeClass('show');
+
+            $(".vat_div").removeClass('hide');
+            $(".vat_div").addClass('show');
+        }
+    });
+    $(document).ready(function(){
+        changeState();     
+    }); 
+    function changeState(obj){
+        var state = $('select[name="state"]').val();
+        console.log("value",state)
+        $.ajax({
+            url: '<?php echo admin_url('settings/get_gstcode_byState'); ?>',
+            data: { 'state': state },
+            type: "post",
+            dataType: "json",
+            success: function (data){
+                console.log("data",data);
+                if(data.data){
+                    console.log("data",data.data.gst_state_code);
+                    $('input[name="gst_code').val(data.data.gst_state_code);
+                } else{
+                    console.log("data else");
+                }
+            }
+        });
+    }
+    
+</script>
 </body>
 
 </html>

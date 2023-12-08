@@ -109,7 +109,6 @@ class Invoices_model extends App_Model
                 foreach ($invoice->attachments as $attachment) {
                     if ($attachment['visible_to_customer'] == 1) {
                         $invoice->visible_attachments_to_customer_found = true;
-
                         break;
                     }
                 }
@@ -337,6 +336,12 @@ class Invoices_model extends App_Model
         } elseif (isset($data['save_and_send_later'])) {
             $data['status'] = self::STATUS_DRAFT;
             unset($data['save_and_send_later']);
+        } elseif (isset($data['create_eway_bill'])) {
+            $data['status'] = '';
+            unset($data['create_eway_bill']);
+        } elseif (isset($data['create_einvoice'])) {
+            $data['status'] = '';
+            unset($data['create_einvoice']);
         }
 
         if (isset($data['recurring'])) {
@@ -826,7 +831,7 @@ class Invoices_model extends App_Model
 
         $data              = $hook['data'];
         $items             = $hook['items'];
-	    $newitems         = $hook['new_items'];
+	    $newitems          = $hook['new_items'];
         $removed_items     = $hook['removed_items'];
         $custom_fields     = $hook['custom_fields'];
         $billed_tasks      = $hook['billed_tasks'];
@@ -866,6 +871,9 @@ class Invoices_model extends App_Model
         }
 
         unset($data['removed_items']);
+        unset($data['hsnCode']);
+        unset($data['create_eway_bill']);
+        unset($data['create_einvoice']);
 
         $this->db->where('id', $id)->update('invoices', $data);
 
@@ -910,6 +918,11 @@ class Invoices_model extends App_Model
         hooks()->do_action('invoice_updated', array_merge($hookData, ['updated' => &$updated]));
 
         return $updated;
+    }
+
+    function update_eway_bill($data,$id){
+        return $this->db->where('id', $id)->update('invoices', $data);
+        // pr($this->db->last_query(),1);
     }
 
     protected function remove_items($items, $id)

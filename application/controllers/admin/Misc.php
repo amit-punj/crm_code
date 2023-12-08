@@ -47,8 +47,7 @@ class Misc extends AdminController
         echo json_encode(get_currency($id));
     }
 
-    public function get_taxes_dropdown_template()
-    {
+    public function get_taxes_dropdown_template() {
         $name    = $this->input->post('name');
         $taxname = $this->input->post('taxname');
         echo $this->misc_model->get_taxes_dropdown_template($name, $taxname);

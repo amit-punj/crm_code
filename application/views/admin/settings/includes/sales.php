@@ -112,9 +112,31 @@
         </div> 
     </div>
     <div role="tabpanel" class="tab-pane" id="invoice">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="control-label" for="invoice_financial_year">Financial Year</label>
+                    <select class="selectpicker display-block financial_year" data-type="invoice" data-width="100%" name='settings[invoice_financial_year]' data-none-selected-text="<?php echo _l('No Financial Year Selelcted'); ?>">
+                        <?php foreach ($financial_years as $key => $year) { ?>
+                            <option <?= ($key == get_option('invoice_financial_year')) ? 'selected':''?> value="<?= $key; ?>"><?=$year?></option>
+                        <?php } ?>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="control-label" for="invoice_gst">GST</label>
+                    <select class="selectpicker display-block" data-width="100%" name='settings[invoice_gst]' data-none-selected-text="<?php echo _l('No State Selelcted'); ?>">
+                        <?php foreach ($gsts as $gst) { ?>
+                            <option <?= ($gst['id'] == get_option('invoice_gst')) ? 'selected':''?> value="<?= $gst['id']; ?>"><?php echo $gst['gst_number']; ?></option>
+                        <?php } ?>
+                    </select>
+                </div>
+            </div>
+        </div>
         <div class="form-group">
             <label class="control-label" for="invoice_prefix"><?php echo _l('settings_sales_invoice_prefix'); ?></label>
-            <input type="text" name="settings[invoice_prefix]" class="form-control"
+            <input type="text" id="invoice_prefix" name="settings[invoice_prefix]" class="form-control"
                 value="<?php echo get_option('invoice_prefix'); ?>">
         </div>
         <hr />
@@ -149,31 +171,30 @@
         <?php render_yes_no_option('attach_invoice_to_payment_receipt_email', 'attach_invoice_to_payment_receipt_email'); ?>
         <hr />
         <div class="form-group">
-            <label for="invoice_number_format"
-                class="control-label clearfix"><?php echo _l('settings_sales_invoice_number_format'); ?></label>
+            <label for="invoice_number_format" class="control-label clearfix"><?php echo _l('settings_sales_invoice_number_format'); ?></label>
             <div class="radio radio-primary radio-inline">
-                <input type="radio" id="number_based" name="settings[invoice_number_format]" value="1" <?php if (get_option('invoice_number_format') == '1') {
-          echo 'checked';
-      } ?>>
+                            <input type="radio" id="number_based" name="settings[invoice_number_format]" value="1" <?php if (get_option('invoice_number_format') == '1') {
+                    echo 'checked';
+                } ?>>
                 <label for="number_based"><?php echo _l('settings_sales_invoice_number_format_number_based'); ?></label>
             </div>
             <div class="radio radio-primary radio-inline">
                 <input type="radio" name="settings[invoice_number_format]" value="2" id="year_based" <?php if (get_option('invoice_number_format') == '2') {
-          echo 'checked';
-      } ?>>
+                    echo 'checked';
+                } ?>>
                 <label for="year_based"><?php echo _l('settings_sales_invoice_number_format_year_based'); ?>
                     (YYYY/000001)</label>
             </div>
             <div class="radio radio-primary radio-inline">
                 <input type="radio" name="settings[invoice_number_format]" value="3" id="short_year_based" <?php if (get_option('invoice_number_format') == '3') {
-          echo 'checked';
-      } ?>>
+                    echo 'checked';
+                } ?>>
                 <label for="short_year_based">000001-YY</label>
             </div>
             <div class="radio radio-primary radio-inline">
                 <input type="radio" name="settings[invoice_number_format]" value="4" id="year_month_based" <?php if (get_option('invoice_number_format') == '4') {
-          echo 'checked';
-      } ?>>
+                        echo 'checked';
+                    } ?>>
                 <label for="year_month_based">000001/MM/YYYY</label>
             </div>
             <hr />
@@ -182,9 +203,31 @@
         <?php echo render_textarea('settings[predefined_terms_invoice]', 'settings_predefined_predefined_term', get_option('predefined_terms_invoice'), ['rows' => 6]); ?>
     </div>
     <div role="tabpanel" class="tab-pane" id="credit_notes">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="control-label" for="credit_financial_year">Financial Year</label>
+                    <select class="selectpicker display-block financial_year" data-type="credit" data-width="100%" name='settings[credit_financial_year]' data-none-selected-text="<?php echo _l('No Financial Year Selelcted'); ?>">
+                        <?php foreach ($financial_years as $key => $year) { ?>
+                            <option <?= ($key == get_option('credit_financial_year')) ? 'selected':''?> value="<?= $key; ?>"><?=$year?></option>
+                        <?php } ?> 
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="control-label" for="credit_gst">GST</label>
+                    <select class="selectpicker display-block" data-width="100%" name='settings[credit_gst]' data-none-selected-text="<?php echo _l('No State Selelcted'); ?>">
+                        <?php foreach ($gsts as $gst) { ?>
+                            <option <?= ($gst['id'] == get_option('credit_gst')) ? 'selected':''?> value="<?= $gst['id']; ?>"><?php echo $gst['gst_number']; ?></option>
+                        <?php } ?>
+                    </select>
+                </div>
+            </div>
+        </div>
         <div class="form-group">
             <label class="control-label" for="credit_note_prefix"><?php echo _l('credit_note_number_prefix'); ?></label>
-            <input type="text" name="settings[credit_note_prefix]" id="credit_note_prefix" class="form-control"
+            <input type="text" name="settings[credit_note_prefix]" id="credit_prefix" class="form-control"
                 value="<?php echo get_option('credit_note_prefix'); ?>">
         </div>
         <hr />
@@ -231,10 +274,32 @@
         <?php echo render_textarea('settings[predefined_terms_credit_note]', 'settings_predefined_predefined_term', get_option('predefined_terms_credit_note'), ['rows' => 6]); ?>
     </div>
     <div role="tabpanel" class="tab-pane" id="estimates">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="control-label" for="estimate_financial_year">Financial Year</label>
+                    <select class="selectpicker display-block financial_year" data-type="estimate" data-width="100%" name='settings[estimate_financial_year]' data-none-selected-text="<?php echo _l('No Financial Year Selelcted'); ?>">
+                        <?php foreach ($financial_years as $key => $year) { ?>
+                            <option <?= ($key == get_option('estimate_financial_year')) ? 'selected':''?> value="<?= $key; ?>"><?=$year?></option>
+                        <?php } ?> 
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="control-label" for="estimate_gst">GST</label>
+                    <select class="selectpicker display-block" data-width="100%" name='settings[estimate_gst]' data-none-selected-text="<?php echo _l('No GST Selelcted'); ?>">
+                        <?php foreach ($gsts as $gst) { ?>
+                            <option <?= ($gst['id'] == get_option('estimate_gst')) ? 'selected':''?> value="<?= $gst['id']; ?>"><?php echo $gst['gst_number']; ?></option>
+                        <?php } ?>
+                    </select>
+                </div>
+            </div>
+        </div>
         <div class="form-group">
             <label class="control-label"
                 for="estimate_prefix"><?php echo _l('settings_sales_estimate_prefix'); ?></label>
-            <input type="text" name="settings[estimate_prefix]" class="form-control"
+            <input type="text" id="estimate_prefix" name="settings[estimate_prefix]" class="form-control"
                 value="<?php echo get_option('estimate_prefix'); ?>">
         </div>
         <hr />
@@ -344,7 +409,35 @@
         <?php echo render_textarea('settings[predefined_terms_estimate]', 'settings_predefined_predefined_term', get_option('predefined_terms_estimate'), ['rows' => 6]); ?>
     </div>
     <div role="tabpanel" class="tab-pane" id="proposals">
-        <?php echo render_input('settings[proposal_number_prefix]', 'proposal_number_prefix', get_option('proposal_number_prefix')); ?>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="control-label" for="proposal_financial_year">Financial Year</label>
+                    <select class="selectpicker display-block financial_year" data-type="proposal" data-width="100%" name='settings[proposal_financial_year]' data-none-selected-text="<?php echo _l('No Financial Year Selelcted'); ?>">
+                        <?php foreach ($financial_years as $key => $year) { ?>
+                            <option <?= ($key == get_option('proposal_financial_year')) ? 'selected':''?> value="<?= $key; ?>"><?=$year?></option>
+                        <?php } ?> 
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label class="control-label" for="proposal_gst">GST</label>
+                    <select class="selectpicker display-block" data-width="100%" name='settings[proposal_gst]' data-none-selected-text="<?php echo _l('No GST Selelcted'); ?>">
+                        <?php foreach ($gsts as $gst) { ?>
+                            <option <?= ($gst['id'] == get_option('proposal_gst')) ? 'selected':''?> value="<?= $gst['id']; ?>"><?php echo $gst['gst_number']; ?></option>
+                        <?php } ?>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="control-label"
+                for="proposal_number_prefix"><?php echo _l('proposal_number_prefix'); ?></label>
+            <input type="text" id="proposal_prefix" name="settings[proposal_number_prefix]" class="form-control"
+                value="<?php echo get_option('proposal_number_prefix'); ?>">
+        </div>
+        <?php// echo render_input('settings[proposal_number_prefix]', 'proposal_number_prefix', get_option('proposal_number_prefix')); ?>
         <hr />
         <i class="fa-regular fa-circle-question pull-left tw-mt-0.5 tw-mr-1" data-toggle="tooltip"
             data-title="<?php echo _l('invoice_due_after_help'); ?>"></i>

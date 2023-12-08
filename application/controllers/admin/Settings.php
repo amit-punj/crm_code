@@ -20,8 +20,9 @@ class Settings extends AdminController
 
         $tab = $this->input->get('group');
         $gst_id = $this->input->get('id') ?? '';
-
+        $einvoice_id = $this->input->get('einvoice_id') ?? '';
         if ($this->input->post()) {
+            // pr($this->input->post());
             if (!has_permission('settings', '', 'edit')) {
                 access_denied('settings');
             }
@@ -32,6 +33,7 @@ class Settings extends AdminController
             $post_data = $this->input->post();
             // pr($post_data);
             $gst_data = [];
+            $einvoice_data = [];
             $tmpData   = $this->input->post(null, false);
 
             if (isset($post_data['settings']['email_header'])) {
@@ -82,6 +84,7 @@ class Settings extends AdminController
             if (!empty($post_data['settings']['din_number'])) {
                 $gst_data['din_number'] = $tmpData['settings']['din_number'];
             }
+
             if (!empty($post_data['settings']['bank_name'])) {
                 $gst_data['bank_name'] = $tmpData['settings']['bank_name'];
             }
@@ -97,6 +100,11 @@ class Settings extends AdminController
             if (!empty($post_data['settings']['bank_address'])) {
                 $gst_data['bank_address'] = $tmpData['settings']['bank_address'];
             }
+            
+            if (!empty($post_data['settings']['gstin'])) {
+                $gst_data['gstin'] = $tmpData['settings']['gstin'];
+            }
+
             if (!empty($post_data['settings']['enable_default_gst'])) {
                 $gst_data['enable_default_gst'] = $tmpData['settings']['enable_default_gst'];
                 $mark_all_disable = $this->settings_model->mark_all_disable();
@@ -106,14 +114,26 @@ class Settings extends AdminController
 
             $gst_data['enable_default_gst'] = $tmpData['settings']['enable_default_gst'] ?? 0;
             $gst_data['user_id'] = get_staff_user_id();
-
+            
             // pr($gst_data);
             $gst_id = $post_data['gst_id'] ?? '';
             // pr($gst_id,1);
+            $einvoice_id = $post_data['einvoice_id'] ?? '';
+            
+            $einvoice_data['user_id'] = get_staff_user_id();
+            $einvoice_data['gst_number'] = $tmpData['gst_number'];
+            $einvoice_data['user_name'] = $tmpData['user_name'];
+            $einvoice_data['password'] = $tmpData['password'];
+            // $einvoice_data['einvoice_applicable'] = $tmpData['einvoice_applicable'];
+
+            // pr($einvoice_data,1);
             
             $success = $this->settings_model->update($post_data);
             if(is_array( $gst_data ) && !empty( $gst_data )){
                 $gst_success = $this->settings_model->gst_update($gst_data, $gst_id);
+            }
+            if(is_array( $einvoice_data ) && !empty( $einvoice_data )){
+                $gst_success = $this->settings_model->einvoice_update($einvoice_data, $einvoice_id);
             }
 
             if ($success > 0) {
@@ -148,6 +168,7 @@ class Settings extends AdminController
         $data['ticket_priorities']['callback_translate'] = 'ticket_priority_translate';
         $data['roles']                                   = $this->roles_model->get();
         $data['gsts']                                    = $this->settings_model->get_all();
+        $data['einvoices']                               = $this->settings_model->get_all_einvoice();
         $data['leads_sources']                           = $this->leads_model->get_source();
         $data['leads_statuses']                          = $this->leads_model->get_status();
         $data['title']                                   = _l('options');
@@ -156,10 +177,19 @@ class Settings extends AdminController
 
         $data['gst_details'] = $this->settings_model->get_default_gst();
         if(!empty($gst_id)){
-            $data['gst_details']   = $this->settings_model->get_all($gst_id);
+            $data['gst_details'] = $this->settings_model->get_all($gst_id);
         }
-        // pr($data['gst_details'],1);
+        if(!empty($einvoice_id)){
+            $data['einvoice_details'] = $this->settings_model->get_all_einvoice($einvoice_id);
+        }
 
+        foreach ($data['einvoices'] as $item) {
+            $newArray[] = $item['gst_number'];
+        }
+        // pr($newArray,1);
+        // pr($data['einvoices'],1);
+
+        $data['exist_gsts'] = $newArray;
         $data['admin_tabs'] = ['update', 'info'];
 
         if (!$tab || (in_array($tab, $data['admin_tabs']) && !is_admin())) {
@@ -205,6 +235,13 @@ class Settings extends AdminController
             $data['current_version'] = $this->current_db_version;
         }
 
+        $data['financial_years'] = [
+                                    '23-24' => '2023-2024',
+                                    '24-25' => '2024-2025',
+                                    '25-26' => '2025-2026',
+                                    '26-27' => '2026-2027',
+                                ];
+
         $data['contacts_permissions'] = get_contact_permissions();
         $data['payment_gateways']     = $this->payment_modes_model->get_payment_gateways(true);
 
@@ -236,6 +273,22 @@ class Settings extends AdminController
         set_alert('success', _l('GST Deleted!'));
 
         redirect(admin_url('settings?group=company&tab=gst'));
+    }
+    public function delete_einvoice($id){
+        if (!$id) {
+            redirect(admin_url('settings?group=company&tab=einvoice'));
+        }
+
+        if (!has_permission('settings', '', 'delete')) {
+            access_denied('settings');
+        }
+
+        $this->db->where('id', $id);
+        $this->db->delete(db_prefix() . '_einvoices');
+
+        set_alert('success', _l('GST Deleted!'));
+
+        redirect(admin_url('settings?group=company&tab=einvoice'));
     }
 
     public function delete_tag($id)

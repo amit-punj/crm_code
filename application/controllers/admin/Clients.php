@@ -86,13 +86,17 @@ class Clients extends AdminController
                 }
 
                 $data = $this->input->post();
-
+                // pr($data);
                 $save_and_add_contact = false;
                 if (isset($data['save_and_add_contact'])) {
                     unset($data['save_and_add_contact']);
                     $save_and_add_contact = true;
                 }
+                $data['gst_number'] = $data['gst_code'].$data['gst_number'];
+                unset($data['gst_code']);
+                // pr($data,1);
                 $id = $this->clients_model->add($data);
+                
                 if (!has_permission('customers', '', 'view')) {
                     $assign['customer_admins']   = [];
                     $assign['customer_admins'][] = get_staff_user_id();
@@ -112,7 +116,14 @@ class Clients extends AdminController
                         access_denied('customers');
                     }
                 }
-                $success = $this->clients_model->update($this->input->post(), $id);
+                $data = $this->input->post();
+                // pr($data);
+                // pr($id);
+                $data['gst_number'] = $data['gst_code'].$data['gst_number'];
+                unset($data['gst_code']);
+                // pr($data);
+                $success = $this->clients_model->update($data, $id);
+                // pr($success,1);
                 if ($success == true) {
                     set_alert('success', _l('updated_successfully', _l('client')));
                 }
@@ -217,7 +228,8 @@ class Clients extends AdminController
                 }
             }
         }
-
+        
+        $data['states'] = $this->db->get(db_prefix() . '_state_gst_code')->result_array();
         $this->load->model('currencies_model');
         $data['currencies'] = $this->currencies_model->get();
 

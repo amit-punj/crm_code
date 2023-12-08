@@ -33,13 +33,30 @@ class Taxes_model extends App_Model
 
         return $this->db->get(db_prefix() . 'taxes')->result_array();
     }
-    public function get_indian_enable_taxes()
+    public function get_indian_enable_taxes($ship_state = '')
     {
-        $this->db->order_by('taxrate', 'ASC');
-        $this->db->where('country', 102);
-        $this->db->where('enable', 1);
+        if(!empty($ship_state)){
+            $this->db->order_by('taxrate', 'ASC');
+            $this->db->where('country', 102);
+            $this->db->where('enable', 1);
+            $this->db->group_start(); //this will start grouping
+            $this->db->like('name', 'sgst');
+            $this->db->or_like('name', 'cgst');
+            $this->db->group_end(); //this will end grouping
+            return  $this->db->get(db_prefix() . 'taxes')->result_array();
+        } else {
+            $this->db->order_by('taxrate', 'ASC');
+            $this->db->where('country', 102);
+            $this->db->where('enable', 1);
+            $this->db->like('name', 'igst');
+            return $this->db->get(db_prefix() . 'taxes')->result_array();
+        }
+        
+        // $this->db->order_by('taxrate', 'ASC');
+        // $this->db->where('country', 102);
+        // $this->db->where('enable', 1);
 
-        return $this->db->get(db_prefix() . 'taxes')->result_array();
+        // return $this->db->get(db_prefix() . 'taxes')->result_array();
     }
 
     /**

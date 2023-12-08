@@ -107,7 +107,6 @@
                      ?>
                     </td>
                     <td></td>
-                    <input type='hidden' id='company_default_country' value="<?php echo get_option('company_default_country'); ?>"/>
                     <?php if(get_option('company_default_country') == 102){ ?>
                             <td></td>
                             <td></td>

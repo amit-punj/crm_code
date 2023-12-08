@@ -686,6 +686,7 @@ function add_new_sales_item_post($item, $rel_id, $rel_type)
                     'rel_type'         => $rel_type,
                     'item_order'       => $item['order'],
                     'unit'             => $item['unit'],
+                    'hsnCode'             => $item['hsnCode'],
                 ]);
 
     $id = $CI->db->insert_id();

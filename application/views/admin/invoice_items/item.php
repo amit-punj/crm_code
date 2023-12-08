@@ -20,8 +20,9 @@
                         <?php echo render_input('description', 'invoice_item_add_edit_description'); ?>
                         <?php echo render_textarea('long_description', 'invoice_item_long_description'); ?>
                         <div class="form-group">
-                        <label for="rate" class="control-label">
-                            <?php echo _l('invoice_item_add_edit_rate_currency', $base_currency->name . ' <small>(' . _l('base_currency_string') . ')</small>'); ?></label>
+                            <label for="rate" class="control-label">
+                                <?php echo _l('invoice_item_add_edit_rate_currency', $base_currency->name . ' <small>(' . _l('base_currency_string') . ')</small>'); ?>
+                            </label>
                             <input type="number" id="rate" name="rate" class="form-control" value="">
                         </div>
                         <?php
@@ -61,6 +62,7 @@
                 </div>
                 <div class="clearfix mbot15"></div>
                 <?php echo render_input('unit', 'unit'); ?>
+                <?php echo render_input('hsnCode', 'HSN/SAC Code'); ?>
                 <div id="custom_fields_items">
                     <?php echo render_custom_fields('items'); ?>
                 </div>

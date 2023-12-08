@@ -43,6 +43,9 @@
                 <li role="presentation" class="gst_tab <?= $hide_show ?>">
                     <a href="#gst" aria-controls="gst" role="tab" data-toggle="tab"><?php echo _l('GST'); ?></a>
                 </li>
+                <li role="presentation" class="gst_tab <?= $hide_show ?>">
+                    <a href="#einvoice" aria-controls="einvoice" role="tab" data-toggle="tab"><?php echo _l('E-INVOICE'); ?></a>
+                </li>
                 <?php hooks()->do_action('after_finance_settings_last_tab'); ?>
             </ul>
         </div>
@@ -73,7 +76,7 @@
             <?php // } ?>
             <?php echo render_input('settings[invoice_company_country_code]', 'settings_sales_country_code', get_option('invoice_company_country_code')); ?>
             <?php echo render_input('settings[invoice_company_postal_code]', 'settings_sales_postal_code', get_option('invoice_company_postal_code')); ?>
-            <?php echo render_input('settings[invoice_company_phonenumber]', 'settings_sales_phonenumber', get_option('invoice_company_phonenumber')); ?>
+            <?php echo render_input('settings[invoice_company_phonenumber]', 'settings_sales_phonenumber', get_option('invoice_company_phonenumber')); ?>            
             <?php echo render_custom_fields('company', 0); ?>
             <?php echo render_input('settings[company_vat]','company_vat_number',get_option('company_vat'),'text',[],[],'vat_div '.$vat_hide_show,''); ?>
             <hr />
@@ -117,6 +120,7 @@
                 </div>    
                 <?php //echo render_input('settings[gst_number]', 'GST Number', $gst_details->gst_number??'','text',$validation);?>
                 <?php echo render_input('settings[pan_number]', 'PAN Number', $gst_details->pan_number ?? ''); ?>
+                <?php echo render_input('settings[gstin]', 'GSTIN', $gst_details->gstin ?? ''); ?>
                 <?php echo render_input('settings[gst_user_id]', 'GST user ID', $gst_details->gst_user_id ?? ''); ?>
                 <?php echo render_input('settings[gst_password]', 'GST Password', $gst_details->gst_password ?? ''); ?>
                 <?php echo render_input('settings[authorised_person_name]','Authorised Person Name',$gst_details->authorised_person_name??'');?>
@@ -188,6 +192,66 @@
                             </tr>
                         <?php } ?>
                     </tbody>
+            </table> 
+        </div>
+        <div role="tabpanel" class="tab-pane gst_tab " id="einvoice">
+            <div class="div_if_india">
+                <div class="form-group">
+                    <label for="enable_default_gst" class="control-label clearfix">E-Invoice Applicable</label>
+                    <div class="radio radio-primary radio-inline">
+                        <input type="radio" id="enable_einvoice_1" <?= (get_option('einvoice_applicable') == 1) ?'checked' : ''?> name="settings[einvoice_applicable]" value="1">
+                        <label for="enable_einvoice_1">Yes</label>
+                    </div>
+                    <div class="radio radio-primary radio-inline">
+                        <input type="radio" id="enable_einvoice_2" <?= (get_option('einvoice_applicable') == 0) ?'checked' : ''?> name="settings[einvoice_applicable]" value="0">
+                        <label for="enable_einvoice_2">No</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="hidden" name="einvoice_id" value="<?= $einvoice_details->id ?? '' ?>">
+                    <label class="control-label" for=""><?php echo _l('Select GST Number'); ?></label>
+                    <select class="selectpicker display-block" data-width="100%" name='gst_number' data-none-selected-text="<?php echo _l('No GST Selected'); ?>">
+                        <option value=""></option>
+                        <?php foreach ($gsts as $gst) { 
+                            if(!in_array($gst['gst_number'], $exist_gsts)){
+                        ?>
+                            <option <?= ($gst['gst_number'] == $einvoice_details->gst_number) ? 'selected':'jj'?> value="<?= $gst['gst_number']; ?>"><?php echo $gst['gst_number']; ?></option>
+                        <?php } else if(isset($einvoice_details) && !empty($einvoice_details->gst_number) && $einvoice_details->gst_number ==  $gst['gst_number']){ ?>
+                                <option <?= ($gst['gst_number'] == $einvoice_details->gst_number) ? 'selected':'kk'?> value="<?= $gst['gst_number']; ?>"><?php echo $gst['gst_number']; ?></option>
+                        <?php } }?>
+                    </select>
+                </div>
+                <?php echo render_input('user_name', 'User Name', $einvoice_details->user_name ?? ''); ?>
+                <?php echo render_input('password', 'Password', $einvoice_details->password ?? ''); ?>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>GST Number</th>
+                        <th>User Name</th>
+                        <th>Password</th>
+                        <!-- <th>Enable Default GST</th> -->
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach ($einvoices ?? [] as $key => $value) { ?>
+                        <tr>
+                            <td><?= $value['gst_number'];?></td>
+                            <td><?= $value['user_name'];?></td>
+                            <td><?= $value['password'];?></td>
+                            <!-- <td><?php // ($value['einvoice_applicable'] == 1) ? 'Yes': 'No';?></td> -->
+                            <td>
+                                <?php 
+                                    $edit_url   = admin_url('settings').'?group=company&tab=einvoice&einvoice_id='.$value['id'];
+                                    $delete_url = admin_url('settings/delete_einvoice/').$value['id'];
+                                ?>
+                                <a href="<?php echo $edit_url?>"><?=_l('edit')?></a>
+                                <a style="color: red;" href="<?php echo $delete_url?>" onclick="return confirm('Are you sure?')"><?=_l('delete')?></a>
+                            </td>
+                        </tr>
+                    <?php } ?>
+                </tbody>
             </table> 
         </div>
     </div>

@@ -119,6 +119,14 @@ $(function() {
 
         var tab = $(this).attr('href').slice(1);
         console.log('tab', tab)
+        if(tab == 'gst'){
+            $('select[name="settings[company_state]"]').trigger("change");
+            $('input[name="settings[gst_code]"]').attr('required',true)
+            $('input[name="settings[gst_number]"]').attr('required',true)
+        } else {
+            $('input[name="settings[gst_code]"]').attr('required',false)
+            $('input[name="settings[gst_number]"]').attr('required',false)
+        }
         settingsForm.attr('action', '<?php echo site_url($this->uri->uri_string()); ?>?group=' + slug +
             '&active_tab=' + tab);
     });
@@ -216,6 +224,10 @@ $(function() {
                 'input[value="0"]').prop('checked', true);
         }
     });
+
+    setTimeout(() => {
+        $('select[name="settings[company_state]"]').trigger("change");
+    }, 500);
 
     <?php if ($tab['slug'] == 'pusher') {
         if (get_option('desktop_notifications') == '1') {
@@ -317,6 +329,39 @@ $('select[name="settings[company_default_country]"]').on('change', function() {
         $(".vat_div").addClass('show');
     }
 });
+</script>
+<script>
+$(document).ready(function(){
+    $('select[name="settings[company_state]"]').on('change', function(){
+        var state = $(this).val();
+        console.log("value",state)
+        $.ajax({
+            url: '<?php echo admin_url('settings/get_gstcode_byState'); ?>',
+            data: { 'state': state },
+            type: "post",
+            dataType: "json",
+            success: function (data){
+                console.log("data",data);
+                if(data.data){
+                    console.log("data",data.data.gst_state_code);
+                    $('input[name="settings[gst_code]"]').val(data.data.gst_state_code);
+                } else{
+                    console.log("data else");
+                }
+            }
+        });
+     });
+
+    $('.financial_year').on('change', function(){
+        var val = $(this).val();
+        var type = $(this).data('type');
+        console.log("value",val)
+        console.log("type",type)
+        $('#'+type+'_prefix').val(val);
+    });
+
+
+}); 
 </script>
 <?php hooks()->do_action('settings_group_end', $tab); ?>
 </body>
