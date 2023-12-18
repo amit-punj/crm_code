@@ -123,6 +123,7 @@
                 <?php echo render_input('settings[gstin]', 'GSTIN', $gst_details->gstin ?? ''); ?>
                 <?php echo render_input('settings[gst_user_id]', 'GST user ID', $gst_details->gst_user_id ?? ''); ?>
                 <?php echo render_input('settings[gst_password]', 'GST Password', $gst_details->gst_password ?? ''); ?>
+                <?php echo render_input('settings[otp]', 'OTP', $gst_details->otp ?? ''); ?>
                 <?php echo render_input('settings[authorised_person_name]','Authorised Person Name',$gst_details->authorised_person_name??'');?>
                 <?php echo render_input('settings[father_name]', 'Father Name', $gst_details->father_name ?? ''); ?>
                 <?php echo render_input('settings[address]', 'Address', $gst_details->address ?? ''); ?>

@@ -780,14 +780,15 @@ class Clients extends AdminController
         if (!has_permission('customers', '', 'create')) {
             access_denied('customers');
         }
-
+        
         $dbFields = $this->db->list_fields(db_prefix() . 'contacts');
         foreach ($dbFields as $key => $contactField) {
             if ($contactField == 'phonenumber') {
                 $dbFields[$key] = 'contact_phonenumber';
             }
         }
-
+        // pr($dbFields,1);
+        
         $dbFields = array_merge($dbFields, $this->db->list_fields(db_prefix() . 'clients'));
 
         $this->load->library('import/import_customers', [], 'import');

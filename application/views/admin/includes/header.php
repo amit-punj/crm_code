@@ -142,7 +142,7 @@
             </div>
 
             <ul class="nav navbar-nav navbar-right">
-                <?php do_action_deprecated('after_render_top_search', [], '3.0.0', 'admin_navbar_start'); ?>
+                <?php // do_action_deprecated('after_render_top_search', [], '3.0.0', 'admin_navbar_start'); ?>
                 <?php hooks()->do_action('admin_navbar_start'); ?>
                 <?php if (is_staff_member()) { ?>
                 <li class="icon header-newsfeed">
@@ -164,7 +164,6 @@
                             stroke="currentColor" class="tw-w-5 tw-h-5 tw-shrink-0">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                         </svg>
-
                         <span
                             class="tw-leading-none tw-px-1 tw-py-0.5 tw-text-xs bg-warning tw-z-10 tw-absolute tw-rounded-full tw-right-1 tw-top-2.5 tw-min-w-[18px] tw-min-h-[18px] tw-inline-flex tw-items-center tw-justify-center nav-total-todos<?php echo $current_user->total_unfinished_todos == 0 ? ' hide' : ''; ?>">
                             <?php echo $current_user->total_unfinished_todos; ?>

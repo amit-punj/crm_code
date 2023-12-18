@@ -123,9 +123,11 @@ $(function() {
             $('select[name="settings[company_state]"]').trigger("change");
             $('input[name="settings[gst_code]"]').attr('required',true)
             $('input[name="settings[gst_number]"]').attr('required',true)
+            $('input[name="settings[otp]"]').attr('required',true)
         } else {
             $('input[name="settings[gst_code]"]').attr('required',false)
             $('input[name="settings[gst_number]"]').attr('required',false)
+            $('input[name="settings[otp]"]').attr('required',false)
         }
         settingsForm.attr('action', '<?php echo site_url($this->uri->uri_string()); ?>?group=' + slug +
             '&active_tab=' + tab);
@@ -359,6 +361,39 @@ $(document).ready(function(){
         console.log("type",type)
         $('#'+type+'_prefix').val(val);
     });
+
+    $('input[name="settings[gst_user_id]"]').on('keyup', function(){
+        var username = $(this).val();
+        var state_code = $('input[name="settings[gst_code]"]').val();
+        console.log("username",username)
+        console.log("state_code",state_code)
+        // return false;
+        if(username.length > 3){
+            $.ajax({
+                url: '<?php echo admin_url('gst/GetOTPByUser'); ?>',
+                data: { 'username': username, 'state_code': state_code},
+                type: "post",
+                dataType: "json",
+                success: function (data){
+                    console.log("data here",data);
+                    if(data.status){
+                        console.log("data",data.message);
+                        var html = '<p id="" class="text-success">'+data.message+'</p>';
+                        $('input[name="settings[gst_user_id]"]').parent().append(html)
+                    } else {
+                        console.log("data else");
+                        if($('#gst_user_id-error').html()){
+                            console.log('dfg')
+                            // $('#gst_user_id-error').remove()
+                            document.getElementById("gst_user_id-error").remove();
+                        }
+                        var html = '<p id="gst_user_id-error" class="text-danger">'+data.message+'</p>';
+                        $('input[name="settings[gst_user_id]"]').parent().append(html)
+                    }
+                }
+            });
+        }
+     });
 
 
 }); 

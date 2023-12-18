@@ -68,6 +68,9 @@ class Settings extends AdminController
             if (!empty($post_data['settings']['gst_password'])) {
                 $gst_data['gst_password'] = $tmpData['settings']['gst_password'];
             }
+            if (!empty($post_data['settings']['otp'])) {
+                $gst_data['otp'] = $tmpData['settings']['otp'];
+            }
 
             if (!empty($post_data['settings']['authorised_person_name'])) {
                 $gst_data['authorised_person_name'] = $tmpData['settings']['authorised_person_name'];
@@ -131,9 +134,10 @@ class Settings extends AdminController
             $success = $this->settings_model->update($post_data);
             if(is_array( $gst_data ) && !empty( $gst_data )){
                 $gst_success = $this->settings_model->gst_update($gst_data, $gst_id);
+                GetGstAuthToken($gst_id);
             }
             if(is_array( $einvoice_data ) && !empty( $einvoice_data )){
-                $gst_success = $this->settings_model->einvoice_update($einvoice_data, $einvoice_id);
+                $einvoice_success = $this->settings_model->einvoice_update($einvoice_data, $einvoice_id);
             }
 
             if ($success > 0) {

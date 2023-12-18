@@ -27,7 +27,7 @@
                     <?php if (isset($item['badge'], $item['badge']['value']) && !empty($item['badge'])) {?>
                     <span
                         class="badge pull-right
-                <?=isset($item['badge']['type']) && $item['badge']['type'] != '' ? "bg-{$item['badge']['type']}" : 'bg-info' ?>" <?=(isset($item['badge']['type']) && $item['badge']['type'] == '') ||
+                        <?= isset($item['badge']['type']) && $item['badge']['type'] != '' ? "bg-{$item['badge']['type']}" : 'bg-info' ?>" <?=(isset($item['badge']['type']) && $item['badge']['type'] == '') ||
                             isset($item['badge']['color']) ? "style='background-color: {$item['badge']['color']}'" : '' ?>>
                         <?= $item['badge']['value'] ?>
                     </span>
@@ -65,11 +65,9 @@
 
             <?php if($key == 'dashboard'){ ?>
                 <li class="menu-item-gst">
-                    <a href="http://localhost/latest_crm/admin/gst" aria-expanded="false">
+                    <a href="<?= admin_url();?>gst" aria-expanded="false">
                         <i class="fa-solid fa-file-invoice menu-icon menu-icon"></i>
-                        <span class="menu-text">
-                            <span class="text-white">GST</span>
-                        </span>
+                        <span class="menu-text">GST</span>
                     </a>
                 </li>
             <?php } ?>

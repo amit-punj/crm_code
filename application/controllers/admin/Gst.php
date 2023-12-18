@@ -5,77 +5,1194 @@ require_once('vendor/autoload.php');
 
 class Gst extends AdminController
 {
-    public function __construct()
-    {
+    public function __construct(){
         parent::__construct();
         $this->load->model('invoices_model');
         $this->load->model('credit_notes_model');
         $this->load->model('settings_model');
+        $this->load->model('gst_model');
         // $this->load->library('curl');
     }
 
     /* Get all invoices in case user go on index page */
-    public function index($id = '')
-    {
+    public function index($id = ''){
         $this->load->model('payment_modes_model');
-        $data['payment_modes']        = $this->payment_modes_model->get('', [], true);
-        $data['invoiceid']            = $id;
         $data['title']                = _l('invoices');
-        $data['invoices_years']       = $this->invoices_model->get_invoices_years();
-        $data['invoices_sale_agents'] = $this->invoices_model->get_sale_agents();
-        $data['invoices_statuses']    = $this->invoices_model->get_statuses();
-        $data['bodyclass']            = 'invoices-total-manual';
         $this->load->view('admin/gst/manage', $data);
     }
-    public function makeApiCall() {
-        try {
-            $clientId       = get_option('company_client_id');
-            $clientSecret   = get_option('company_client_secret');
-            //Create guzzle http client
-            $client = new \GuzzleHttp\Client(); 
-            $response = $client->request('POST', 'https://staging.fynamics.co.in/api/authenticate', [
-                'headers' => [
-                    'accept' => 'application/json',
-                    'clientId' => $clientId,
-                    'clientSecret' => $clientSecret,
-                ],
-            ]);
 
-            $body = $response->getBody();
-            // Output the response
-            $bearer_token = json_decode($body)->data->accessToken;
-            
-            if ($bearer_token) {
-                $post_data['settings']['company_bearer_token'] = $bearer_token;
+    // code start for b2b invoices
+    public function gstr1b2binvoices(){
+        $data['title']                = _l('GSTR-1 Get B2B Invoices');
+        $data1 = [];
+        if ($this->input->post('download_sample') === 'true') {
+            foreach ($this->input->post('month') ?? [] as $key => $value) {
+                $year = explode('-',$this->input->post('year'));
+                if($value <=3 && $value >= 1){
+                    $date = $value. $year[1];
+                } elseif ($value <=12 && $value >= 4) {
+                    $date = $value. $year[0];
+                }
+                $join_column = 'gstr1_b2b_invoice_id';
+                $where_column = 'idt';
+                $result = $this->gst_model->select('_gstr1_b2b_invoices','_gstr1_b2b_invoice_items',$join_column,$where_column,$date);
+                if($result){
+                    $data1 = array_merge($data1, $result);
+                }
             }
-            $success = $this->settings_model->update($post_data);
-            pr(json_decode($body)->data->accessToken,1);
-
-            $response = $client->request('POST', 'https://staging.fynamics.co.in/api/eway/enhanced/authentication', [
-                'body' => '{"action":"ACCESSTOKEN","username":"FYNTRAINING","password":"Fyn@2022"}',
-                'headers' => [
-                    'accept' => 'application/json',
-                    'authorization' => 'Bearer a6a2d1bc1f60a7c99f4234db00bac08e8e01ae66dc67129104c22e1168bf4aac78a69fdeb2ed0eb86bf8e02ef769a8bddb972bd8df50e339d2cdc6df6d0252ca6d2f713b6c05bf9fcfd0b288e31fe36fdc804868f731873bfcb8725e84b10df069f47fbb96ec6af8bb2dacd8f1d01f33462f9201d66cb126',
-                    'content-type' => 'application/json',
-                    'gstin' => '29AASCS4555K1ZH',
-                ],
-            ]);
-            // Get the response body
-            $body = $response->getBody();
-            // Output the response
-            pr(json_decode($body),1);
-        } catch (\RequestException $e) {
-            // Guzzle exception handling
-            if ($e->hasResponse()) {
-                echo 'HTTP response status: ' . $e->getResponse()->getStatusCode() . PHP_EOL;
-                echo 'Response body: ' . $e->getResponse()->getBody();
-            } else {
-                echo 'Request failed: ' . $e->getMessage();
-            }
-        } catch (\Exception $e) {
-            // Catch any other exceptions
-            echo 'An unexpected error occurred: ' . $e->getMessage();
+            $header = $this->db->list_fields(db_prefix() . '_gstr1_b2b_invoices');
+            $header = array_merge($header, $this->db->list_fields(db_prefix().'_gstr1_b2b_invoice_items'));
+            $this->Download($header,$data1);
         }
+        $this->load->view('admin/gst/gstr1/b2binvoices', $data);
+    }    
+    public function get_gstr1b2binvoices(){
+        $data1 = [];
+        foreach ($this->input->post('month') as $key => $value) {
+            $year = explode('-',$this->input->post('year'));
+            if($value <=3 && $value >= 1){
+                $date = $value. $year[1];
+            } elseif ($value <=12 && $value >= 4) {
+                $date = $value. $year[0];
+            }
+            $join_column = 'gstr1_b2b_invoice_id';
+            $where_column = 'idt';
+            $result = $this->gst_model->select('_gstr1_b2b_invoices','_gstr1_b2b_invoice_items',$join_column,$where_column,$date);
+            if($result){
+                $data1 = array_merge($data1, $result);
+                $data = ['status'=>true,'data'=>$data1];
+            } 
+        }
+        if(count($data1) <=0){
+            $data = ['status'=>false,'data'=>[]];
+        }
+        echo json_encode($data);
+    }
+    public function GetB2BInvoices() {
+        // pr($this->input->post(),1);
+        $base_url       = get_option('api_base_url');
+        $clientId       = get_option('company_client_id');
+        $clientSecret   = get_option('company_client_secret');
+        $bearer_token   = get_option('company_bearer_token');
+        if(empty($bearer_token)){
+            $bearer_token = GetBearerToken();
+        }
+        $gst = $this->settings_model->get_default_gst();
+        if(empty($gst)){
+            set_alert('warning', _l('There is no Default GST. Please Select Default GST First!'));
+            redirect(admin_url('Gst'));
+        } elseif($gst && $gst->gst_auth_token == ''){
+            $gst = GetGstAuthToken($gst->id);
+        } elseif ($gst && $gst->gst_token_expiry_date && time() > strtotime($gst->gst_token_expiry_date)) {
+            $gst = GetGstRefreshToken();
+        }
+        
+        $ctin = '20GRRHF2562D3A3';
+        $date = '04-02-2017';
+        $year = explode('-',$this->input->post('year'));
+        $value = $this->input->post('month')[0];
+        if($value <=3 && $value >= 1){
+            $ret_period = $value. $year[1];
+        } elseif ($value <=12 && $value >= 4) {
+            $ret_period = $value. $year[0];
+        }
+        // pr($gst);
+        
+        //Create guzzle http client
+        $client = new \GuzzleHttp\Client(); 
+        $response = $client->request('GET', $base_url.'/api/gst/getb2b/'.$gst->gst_number.'/'.$ret_period.'/Y/'.$ctin.'/'.$date, [
+            // 'body' => json_encode($api_data),
+            'headers' => [
+                'accept' => 'application/json',
+                "username" => $gst->gst_user_id,
+                'ip-usr' => get_ip(),
+                'state-cd'=> (int) ($gst->gst_number) ? substr($gst->gst_number,0,2) : 29,
+                'auth-token' => $gst->gst_auth_token,
+                'app_key' => $gst->gst_app_key,
+                'sek' => $gst->gst_sek,
+                'authorization' => 'Bearer '.$bearer_token,
+            ],
+        ]);
+        
+        $body = $response->getBody();
+        // Output the response
+        $body = '{
+                    "b2b": [
+                        {
+                            "ctin": "01AABCE2207R1Z5",
+                            "cfs": "Y",
+                            "inv": [
+                                {
+                                    "chksum": "BBUIBUIUIJKKBJKGUYFTFGUY",
+                                    "updby": "S",
+                                    "inum": "S008400",
+                                    "idt": "24-11-2016",
+                                    "val": 729248.16,
+                                    "pos": 6,
+                                    "rchrg": "N",
+                                    "etin": "01AABCE5507R1Z4",
+                                    "inv_typ": "R",
+                                    "cflag": "N",
+                                    "diff_percent": 0.65,
+                                    "opd": "2016-12",
+                                    "srctyp": "EInvoice",
+                                    "irn": "897ADG56RTY78956HYUG90BNHHIJK453GFTD99845672FDHHHSHGFH4567FG56TR",
+                                    "irngendate": "24-12-2019",
+                                    "itms": [
+                                        {
+                                            "num": 1,
+                                            "itm_det": {
+                                                "rt": 5,
+                                                "txval": 10000,
+                                                "iamt": 325,
+                                                "camt": 0,
+                                                "samt": 0,
+                                                "csamt": 10
+                                            }
+                                        }
+                                        ]
+                                    }
+                                    ]
+                                }
+                                ]
+                            }';        
+                            
+        $body = json_decode($body);
+        if(isset($body->status_cd) && $body->status_cd == 0) {
+            $err = $body->error->error_cd.' - '.$body->error->message;
+            // continue;
+            echo json_encode(['status'=>false,'message'=>$err]);
+            die;
+            set_alert('warning', $err);
+            redirect(admin_url('gst'));
+        } else {
+            // pr($body);
+            // pr('coming here');
+            $body = $body->b2b;
+            foreach ($body ?? [] as $key => $invoices) {
+                // pr($invoices);
+                $data['ctin'] = $invoices->ctin;
+                $data['cfs'] = $invoices->cfs;
+                // pr($data);
+                foreach($invoices->inv ?? [] as $k => $inv){
+                    // pr($inv);
+                    $data['chksum'] = $inv->chksum;
+                    $data['updby'] = $inv->updby;
+                    $data['inum'] = $inv->inum;
+                    $data['idt'] = date('Y-m-d',strtotime($inv->idt));
+                    $data['val'] = $inv->val;
+                    $data['pos'] = $inv->pos;
+                    $data['rchrg'] = $inv->rchrg;
+                    $data['etin'] = $inv->etin;
+                    $data['inv_typ'] = $inv->inv_typ;
+                    $data['cflag'] = $inv->cflag;
+                    $data['diff_percent'] = $inv->diff_percent;
+                    $data['opd'] = date('Y-m-d',strtotime($inv->opd));;
+                    $data['srctyp'] = $inv->srctyp;
+                    $data['irn'] = $inv->irn;
+                    $data['irngendate'] = date('Y-m-d',strtotime($inv->irngendate));
+                    // pr($data);
+                    $invoice_id = $this->gst_model->add('_gstr1_b2b_invoices',$data);
+                    // pr($inv);
+                    foreach ($inv->itms ?? [] as $i => $item) {
+                        // pr($item);
+                        if($invoice_id){
+                            $item_data['gstr1_b2b_invoice_id'] = $invoice_id;
+                            $item_data['num'] = $item->num;
+                            $item_data['rt'] = $item->itm_det->rt;
+                            $item_data['txval'] = $item->itm_det->txval;
+                            $item_data['iamt'] = $item->itm_det->iamt;
+                            $item_data['camt'] = $item->itm_det->camt;
+                            $item_data['samt'] = $item->itm_det->samt;
+                            $item_data['csamt'] = $item->itm_det->csamt;
+                            $this->gst_model->add('_gstr1_b2b_invoice_items',$item_data);
+                        }
+                    }
+                }
+            }
+            echo json_encode(['status'=>true,'message'=>_l('Data added successfully. Please click on GET button to get list.')]);
+            die;
+            set_alert('success', _l('added_successfully', _l('invoice')));
+            redirect(admin_url('gst'));
+        }
+    }
+    // code end for b2b invoices
+
+    // code start for b2cl invoices
+    public function gstr1b2clinvoices(){
+        $data['title']                = _l('GSTR-1 Get B2CL Invoices');
+        $data1 = [];
+        if ($this->input->post('download_sample') === 'true') {
+            foreach ($this->input->post('month') ?? [] as $key => $value) {
+                $year = explode('-',$this->input->post('year'));
+                if($value <=3 && $value >= 1){
+                    $date = $value. $year[1];
+                } elseif ($value <=12 && $value >= 4) {
+                    $date = $value. $year[0];
+                }
+                $join_column = 'gstr1_b2cl_invoice_id';
+                $where_column = 'idt';
+                $result = $this->gst_model->select('_gstr1_b2cl_invoices','_gstr1_b2cl_invoice_items',$join_column,$where_column,$date);
+                if($result){
+                    $data1 = array_merge($data1, $result);
+                }
+            }
+            $header = $this->db->list_fields(db_prefix() . '_gstr1_b2cl_invoices');
+            $header = array_merge($header, $this->db->list_fields(db_prefix().'_gstr1_b2cl_invoice_items'));
+            $this->Download($header,$data1);
+        }
+        $this->load->view('admin/gst/gstr1/b2clinvoices', $data);
+    }
+    public function get_gstr1b2clinvoices(){
+        $data1 = [];
+        foreach ($this->input->post('month') as $key => $value) {
+            $year = explode('-',$this->input->post('year'));
+            if($value <=3 && $value >= 1){
+                $date = $value. $year[1];
+            } elseif ($value <=12 && $value >= 4) {
+                $date = $value. $year[0];
+            }
+            $join_column = 'gstr1_b2cl_invoice_id';
+            $where_column = 'idt';
+            $result = $this->gst_model->select('_gstr1_b2cl_invoices','_gstr1_b2cl_invoice_items',$join_column,$where_column,$date);
+            if($result){
+                $data1 = array_merge($data1, $result);
+                $data = ['status'=>true,'data'=>$data1];
+            }
+        }
+        if(count($data1) <=0){
+            $data = ['status'=>false,'data'=>[]];
+        }
+        echo json_encode($data);
+    }
+    public function GetB2CLInvoices() {
+        $base_url       = get_option('api_base_url');
+        $bearer_token   = get_option('company_bearer_token');
+        if(empty($bearer_token)){
+            $bearer_token = GetBearerToken();
+        }
+
+        $gst = $this->settings_model->get_default_gst();
+        if(empty($gst)){
+            set_alert('warning', _l('There is no default GST. Please select Default GST First!'));
+            redirect(admin_url('Gst'));
+        }else if($gst && $gst->gst_auth_token == ''){
+            $gst = GetGstAuthToken($gst->id);
+        } elseif ($gst && $gst->gst_token_expiry_date && time() < strtotime($gst->gst_token_expiry_date)) {
+            $gst = GetGstRefreshToken();
+        }
+        // pr($base_url);
+        // pr($gst);
+        $year = explode('-',$this->input->post('year'));
+        $value = $this->input->post('month')[0];
+        if($value <=3 && $value >= 1){
+            $ret_period = $value. $year[1];
+        } elseif ($value <=12 && $value >= 4) {
+            $ret_period = $value. $year[0];
+        }
+
+        //Create guzzle http client
+        $client = new \GuzzleHttp\Client(); 
+        $response = $client->request('GET', $base_url.'/api/gst/getb2cl/'.$gst->gst_number.'/'.$ret_period, [
+            // 'body' => json_encode($api_data),
+            'headers' => [
+                'accept' => 'application/json',
+                "username" => $gst->gst_user_id,
+                'ip-usr' => get_ip(),
+                'state-cd'=> (int) ($gst->gst_number) ? substr($gst->gst_number,0,2) : 29,
+                'auth-token' => $gst->gst_auth_token,
+                'app_key' => $gst->gst_app_key,
+                'sek' => $gst->gst_sek,
+                'authorization' => 'Bearer '.$bearer_token,
+            ]
+        ]);
+
+        $body = $response->getBody();
+
+        $body = '{
+            "b2cl": [
+                {
+                "pos": 5,
+                "inv": [
+                    {
+                    "flag": "N",
+                    "chksum": "ASDFGJKLPTBBJKBJKBBJKBB",
+                    "inum": 92661,
+                    "idt": "24-11-2016",
+                    "val": 729248.16,
+                    "inv_typ": "CBW",
+                    "etin": "27AHQPA8875L1ZU",
+                    "itms": [
+                        {
+                        "num": 1,
+                        "itm_det": {
+                            "rt": 0,
+                            "txval": 0,
+                            "iamt": 0
+                        }
+                        }
+                    ]
+                    }
+                ]
+                }
+            ]
+        }';
+        $body = json_decode($body);
+        // pr($body);
+        // Output the response
+        if(isset($body->status_cd) && $body->status_cd == 0) {
+            $err = $body->error->error_cd.' - '.$body->error->message;
+            set_alert('warning', $err);
+            redirect(admin_url('gst'));
+        } else {
+            // pr('coming here',1);
+            $body = $body->b2cl;
+            foreach ($body ?? [] as $key => $invoices) {
+                // pr($invoices);
+                $data['pos'] = $invoices->pos;
+                foreach($invoices->inv ?? [] as $k => $invoice){
+                    // pr($invoice);
+                    $data['flag'] = $invoice->flag;
+                    $data['chksum'] = $invoice->chksum;
+                    $data['inum'] = $invoice->inum;
+                    $data['idt'] = date('Y-m-d',strtotime($invoice->idt));
+                    $data['val'] = $invoice->val;
+                    $data['inv_typ'] = $invoice->inv_typ;
+                    $data['etin'] = $invoice->etin;
+                    // pr($data,1);
+                    $invoice_id = $this->gst_model->add('_gstr1_b2cl_invoices',$data);
+                    // pr($inv);
+                    foreach ($invoice->itms ?? [] as $i => $item) {
+                        // pr($item);
+                        if($invoice_id){
+                            $item_data['gstr1_b2cl_invoice_id'] = $invoice_id;
+                            $item_data['num'] = $item->num;
+                            $item_data['rt'] = $item->itm_det->rt;
+                            $item_data['txval'] = $item->itm_det->txval;
+                            $item_data['iamt'] = $item->itm_det->iamt;
+                            $this->gst_model->add('_gstr1_b2cl_invoice_items',$item_data);
+                        }
+                    }
+                }
+            }
+            set_alert('success', _l('added_successfully', _l('invoice')));
+            redirect(admin_url('gst'));
+        }
+    }
+    // code end for b2cl invoices
+    
+    // code start for b2cs invoices
+    public function gstr1b2csinvoices(){
+        $data['title']                = _l('GSTR-1 Get B2CS Invoices');
+        $data1 = [];
+        if ($this->input->post('download_sample') === 'true') {
+            foreach ($this->input->post('month') ?? [] as $key => $value) {
+                $year = explode('-',$this->input->post('year'));
+                if($value <=3 && $value >= 1){
+                    $date = $value. $year[1];
+                } elseif ($value <=12 && $value >= 4) {
+                    $date = $value. $year[0];
+                }
+                $join_column = 'gstr1_b2cs_invoice_id';
+                $where_column = 'idt';
+                $result = $this->gst_model->select_single('_gstr1_b2cs_invoices',$where_column,$date);
+                pr($result ,1);
+                if($result){
+                    $data1 = array_merge($data1, $result);
+                }
+            }
+            $header = $this->db->list_fields(db_prefix() . '_gstr1_b2cs_invoices');
+            // $header = array_merge($header, $this->db->list_fields(db_prefix().'_gstr1_b2cs_invoice_items'));
+            $this->Download($header,$data1);
+        }
+        $this->load->view('admin/gst/gstr1/b2csinvoices', $data);
+    }
+    public function get_gstr1b2csinvoices(){
+        $data1 = [];
+        foreach ($this->input->post('month') as $key => $value) {
+            $year = explode('-',$this->input->post('year'));
+            if($value <=3 && $value >= 1){
+                $date = $value. $year[1];
+            } elseif ($value <=12 && $value >= 4) {
+                $date = $value. $year[0];
+            }
+            $join_column = 'gstr1_b2cs_invoice_id';
+            $where_column = 'idt';
+            $result = $this->gst_model->select_single('_gstr1_b2cs_invoices',$where_column,$date);
+            if($result){
+                $data1 = array_merge($data1, $result);
+                $data = ['status'=>true,'data'=>$data1];
+            }
+        }
+        if(count($data1) <=0){
+            $data = ['status'=>false,'data'=>[]];
+        }
+        echo json_encode($data);
+    }
+    public function GetB2CSInvoices() {
+        $base_url       = get_option('api_base_url');
+        $bearer_token   = get_option('company_bearer_token');
+        if(empty($bearer_token)){
+            $bearer_token = GetBearerToken();
+        }
+        
+        $gst = $this->settings_model->get_default_gst();
+        if(empty($gst)){
+            set_alert('warning', _l('There is no default GST. Please select Default GST First!'));
+            redirect(admin_url('Gst'));
+        }else if($gst && $gst->gst_auth_token == ''){
+            $gst = GetGstAuthToken($gst->id);
+        } elseif ($gst && $gst->gst_token_expiry_date && time() < strtotime($gst->gst_token_expiry_date)) {
+            $gst = GetGstRefreshToken();
+        }
+        // pr($base_url);
+        // pr($gst);
+        
+        $ret_period = 122023;
+        //Create guzzle http client
+        $client = new \GuzzleHttp\Client(); 
+        $response = $client->request('GET', $base_url.'/api/gst/getb2cs/'.$gst->gst_number.'/'.$ret_period, [
+            // 'body' => json_encode($api_data),
+            'headers' => [
+                'accept' => 'application/json',
+                "username" => $gst->gst_user_id,
+                'ip-usr' => get_ip(),
+                'state-cd'=> (int) ($gst->gst_number) ? substr($gst->gst_number,0,2) : 29,
+                'auth-token' => $gst->gst_auth_token,
+                'app_key' => $gst->gst_app_key,
+                'sek' => $gst->gst_sek,
+                'authorization' => 'Bearer '.$bearer_token,
+                ]
+            ]);
+            
+            $body = $response->getBody();
+            
+            $body = '{
+                "b2cs": [
+                {
+                "flag": "N",
+                "chksum": "ASDFGJKLPTBBJKBJKBBJKBB",
+                "sply_ty": "INTER",
+                "diff_percent": 0.65,
+                "rt": 5,
+                "typ": "E",
+                "etin": "20ABCDE7588L1ZJ",
+                "pos": 5,
+                "txval": 110,
+                "iamt": 10,
+                "csamt": 10
+            },
+            {
+                "flag": "N",
+                "chksum": "ASDFGJKLPTBBJKBJKBBJKBB",
+                "sply_ty": "INTER",
+                "diff_percent": 0.65,
+                "rt": 5,
+                "typ": "OE",
+                "pos": 5,
+                "txval": 440,
+                "iamt": 40,
+                "csamt": 10
+                },
+                {
+                    "flag": "N",
+                    "chksum": "ASDFGJKLPTBBJKBJKBBJKBB",
+                "sply_ty": "INTRA",
+                "diff_percent": 0.65,
+                "rt": 0,
+                "typ": "E",
+                "etin": "20ABCDE7588L1ZJ",
+                "txval": 0,
+                "camt": 0,
+                "csamt": 0,
+                "samt": 0
+                },
+                {
+                "flag": "N",
+                "chksum": "ASDFGJKLPTBBJKBJKBBJKBB",
+                "sply_ty": "INTER",
+                "diff_percent": 0.65,
+                "rt": 5,
+                "typ": "OE",
+                "txval": 100,
+                "camt": 10,
+                "csamt": 10,
+                "samt": 10
+                }
+                ]
+            }';
+            $body = json_decode($body);
+        // pr($body);
+        // Output the response
+        if(isset($body->status_cd) && $body->status_cd == 0) {
+            $err = $body->error->error_cd.' - '.$body->error->message;
+            set_alert('warning', $err);
+            redirect(admin_url('gst'));
+        } else {
+            // pr('coming here',1);
+            $body = $body->b2cs;
+            foreach ($body ?? [] as $key => $invoice) {
+                // pr($invoice);
+                $data['flag'] = $invoice->flag ?? '';
+                $data['chksum'] = $invoice->chksum ?? '';
+                $data['sply_ty'] = $invoice->sply_ty ?? '';
+                $data['diff_percent'] = $invoice->diff_percent ?? '';
+                $data['rt'] = $invoice->rt ?? '';
+                $data['typ'] = $invoice->typ ?? '';
+                $data['etin'] = $invoice->etin ?? '';
+                $data['pos'] = $invoice->pos ?? '';
+                $data['txval'] = $invoice->txval ?? '';
+                $data['iamt'] = $invoice->iamt ?? '';
+                $data['csamt'] = $invoice->csamt ?? '';
+                // pr($data);
+                $invoice_id = $this->gst_model->add('_gstr1_b2cs_invoices',$data);
+            }
+            // pr($data,1);
+            set_alert('success', _l('added_successfully', _l('invoice')));
+            redirect(admin_url('gst'));
+        }
+    }
+    // code end for b2cs invoices
+    // code start for cdnr invoices
+    public function gstr1cdnrinvoices(){
+        $data['title']                = _l('GSTR-1 Get CDNR Invoices');
+        $data1 = [];
+        if ($this->input->post('download_sample') === 'true') {
+            foreach ($this->input->post('month') ?? [] as $key => $value) {
+                $year = explode('-',$this->input->post('year'));
+                if($value <=3 && $value >= 1){
+                    $date = $value. $year[1];
+                } elseif ($value <=12 && $value >= 4) {
+                    $date = $value. $year[0];
+                }
+                $join_column = 'gstr1_cdnr_invoice_id';
+                $where_column = 'idt';
+                $result = $this->gst_model->select('_gstr1_cdnr_invoices','_gstr1_cdnr_invoice_items',$join_column,$where_column,$date);
+                if($result){
+                    $data1 = array_merge($data1, $result);
+                }
+            }
+            $header = $this->db->list_fields(db_prefix() . '_gstr1_cdnr_invoices');
+            $header = array_merge($header, $this->db->list_fields(db_prefix().'_gstr1_cdnr_invoice_items'));
+            $this->Download($header,$data1);
+        }
+        $this->load->view('admin/gst/gstr1/cdnrinvoices', $data);
+    }
+    public function get_gstr1cdnrinvoices(){
+        $data1 = [];
+        foreach ($this->input->post('month') as $key => $value) {
+            $year = explode('-',$this->input->post('year'));
+            if($value <=3 && $value >= 1){
+                $date = $value. $year[1];
+            } elseif ($value <=12 && $value >= 4) {
+                $date = $value. $year[0];
+            }
+            $join_column = 'gstr1_cdnr_invoice_id';
+            $where_column = 'idt';
+            $result = $this->gst_model->select('_gstr1_cdnr_invoices','_gstr1_cdnr_invoice_items',$join_column,$where_column,$date);
+            if($result){
+                $data1 = array_merge($data1, $result);
+                $data = ['status'=>true,'data'=>$data1];
+            }
+        }
+        if(count($data1) <=0){
+            $data = ['status'=>false,'data'=>[]];
+        }
+        echo json_encode($data);
+    }
+    public function GetCDNRInvoices() {
+        $base_url       = get_option('api_base_url');
+        $bearer_token   = get_option('company_bearer_token');
+        if(empty($bearer_token)){
+            $bearer_token = GetBearerToken();
+        }
+
+        $gst = $this->settings_model->get_default_gst();
+        if(empty($gst)){
+            set_alert('warning', _l('There is no default GST. Please select Default GST First!'));
+            redirect(admin_url('Gst'));
+        }else if($gst && $gst->gst_auth_token == ''){
+            $gst = GetGstAuthToken($gst->id);
+        } elseif ($gst && $gst->gst_token_expiry_date && time() < strtotime($gst->gst_token_expiry_date)) {
+            $gst = GetGstRefreshToken();
+        }
+        // pr($base_url);
+        // pr($gst);
+
+        $ret_period = 122023;
+        //Create guzzle http client
+        $client = new \GuzzleHttp\Client(); 
+        $response = $client->request('GET', $base_url.'/api/gst/getcdnr/'.$gst->gst_number.'/'.$ret_period, [
+            // 'body' => json_encode($api_data),
+            'headers' => [
+                'accept' => 'application/json',
+                "username" => $gst->gst_user_id,
+                'ip-usr' => get_ip(),
+                'state-cd'=> (int) ($gst->gst_number) ? substr($gst->gst_number,0,2) : 29,
+                'auth-token' => $gst->gst_auth_token,
+                'app_key' => $gst->gst_app_key,
+                'sek' => $gst->gst_sek,
+                'authorization' => 'Bearer '.$bearer_token,
+            ]
+        ]);
+
+        $body = $response->getBody();
+
+        $body = '{
+            "cdnr": [
+                {
+                "ctin": "01AABCE2207R1Z5",
+                "cfs": "Y",
+                "nt": [
+                    {
+                    "chksum": "BBUIBUIUIJKKBJKGUYFTFGUY",
+                    "cflag": "N",
+                    "updby": "S",
+                    "ntty": "C",
+                    "nt_num": 533515,
+                    "nt_dt": "23-09-2016",
+                    "p_gst": "N",
+                    "inum": "S008400",
+                    "idt": "24-11-2016",
+                    "val": 729248.16,
+                    "opd": "2016-12",
+                    "pos": 6,
+                    "rchrg": "N",
+                    "inv_typ": "R",
+                    "d_flag": "Y",
+                    "flag": "N",
+                    "srctyp": "EInvoice",
+                    "irn": "897ADG56RTY78956HYUG90BNHHIJK453GFTD99845672FDHHHSHGFH4567FG56TR",
+                    "irngendate": "24-12-2019",
+                    "itms": [
+                        {
+                        "num": 1,
+                        "itm_det": {
+                            "rt": 15,
+                            "txval": 5225.28,
+                            "iamt": 845.22,
+                            "csamt": 789.52
+                        }
+                        }
+                    ]
+                    }
+                ]
+                }
+            ]
+        }';
+        $body = json_decode($body);
+        // pr($body);
+        // Output the response
+        if(isset($body->status_cd) && $body->status_cd == 0) {
+            $err = $body->error->error_cd.' - '.$body->error->message;
+            set_alert('warning', $err);
+            redirect(admin_url('gst'));
+        } else {
+            // pr('coming here',1);
+            $body = $body->cdnr;
+            foreach ($body ?? [] as $key => $invoice) {
+                // pr($invoice);
+                $data['ctin'] = $invoice->ctin;
+                $data['cfs'] = $invoice->cfs;
+                foreach($invoice->nt ?? [] as $k => $inv){
+                    // pr($inv);
+                    $data['chksum'] = $inv->chksum;
+                    $data['cflag'] = $inv->cflag;
+                    $data['updby'] = $inv->updby;
+                    $data['ntty'] = $inv->ntty;
+                    $data['nt_num'] = $inv->nt_num;
+                    $data['nt_dt'] = $inv->nt_dt;
+                    $data['p_gst'] = $inv->p_gst;
+                    $data['inum'] = $inv->inum;
+                    $data['idt'] = $inv->idt;
+                    $data['val'] = $inv->val;
+                    $data['opd'] = $inv->opd;
+                    $data['pos'] = $inv->pos;
+                    $data['rchrg'] = $inv->rchrg;
+                    $data['inv_typ'] = $inv->inv_typ;
+                    $data['d_flag'] = $inv->d_flag;
+                    $data['flag'] = $inv->flag;
+                    $data['srctyp'] = $inv->srctyp;
+                    $data['irn'] = $inv->irn;
+                    $data['irngendate'] = $inv->irngendate;
+
+                    // pr($data);
+                    $invoice_id = $this->gst_model->add('_gstr1_cdnr_invoices',$data);
+                    // pr($inv);
+                    if($invoice_id){
+                        foreach ($inv->itms ?? [] as $i => $item) {
+                            // pr($item);
+                            $item_data['num'] = $item->num;
+                            $item_data['rt'] = $item->itm_det->rt;
+                            $item_data['txval'] = $item->itm_det->txval;
+                            $item_data['iamt'] = $item->itm_det->iamt;
+                            $item_data['csamt'] = $item->itm_det->csamt;
+                            $this->gst_model->add('_gstr1_cdnr_invoice_items',$item_data);
+                        }
+                    }
+                }
+            }
+            // pr($data,1);
+            set_alert('success', _l('added_successfully', _l('invoice')));
+            redirect(admin_url('gst'));
+        }
+    }
+    // code end for cdnr invoices
+    
+    public function Download($header, $data){
+        ob_start();
+        
+        ini_set('auto_detect_line_endings', true);
+        // Set headers
+        header("Content-type: application/csv");
+        header("Content-Disposition: attachment; filename=\"test.csv\"");
+        header("Pragma: no-cache");
+        header("Expires: 0");
+        // Open output stream
+        $handle = fopen('php://output', 'w');
+        
+        // Write header to CSV
+        fputcsv($handle, $header);
+        
+        // Write data to CSV
+        foreach ($data as $data_array) {
+            // Convert the object to an array
+            $data_array = (array)$data_array;
+            fputcsv($handle, $data_array);
+        }
+        
+        // Close output stream
+        fclose($handle);
+
+        // Flush output buffer
+        ob_flush();
+        exit;
+    }
+    
+    // public function GetB2CSInvoices() {
+    //     $base_url       = get_option('api_base_url');
+    //     $bearer_token   = get_option('company_bearer_token');
+    //     if(empty($bearer_token)){
+    //         $bearer_token = GetBearerToken();
+    //     }
+
+    //     $gst = $this->settings_model->get_default_gst();
+    //     if(empty($gst)){
+    //         set_alert('warning', _l('There is no default GST. Please select Default GST First!'));
+    //         redirect(admin_url('Gst'));
+    //     }else if($gst && $gst->gst_auth_token == ''){
+    //         $gst = GetGstAuthToken($gst->id);
+    //     } elseif ($gst && $gst->gst_token_expiry_date && time() < strtotime($gst->gst_token_expiry_date)) {
+    //         $gst = GetGstRefreshToken();
+    //     }
+    //     // pr($base_url);
+    //     // pr($gst);
+
+    //     $ret_period = 122023;
+    //     //Create guzzle http client
+    //     $client = new \GuzzleHttp\Client(); 
+    //     $response = $client->request('GET', $base_url.'/api/gst/getb2cs/'.$gst->gst_number.'/'.$ret_period, [
+    //         // 'body' => json_encode($api_data),
+    //         'headers' => [
+    //             'accept' => 'application/json',
+    //             "username" => $gst->gst_user_id,
+    //             'ip-usr' => get_ip(),
+    //             'state-cd'=> (int) ($gst->gst_number) ? substr($gst->gst_number,0,2) : 29,
+    //             'auth-token' => $gst->gst_auth_token,
+    //             'app_key' => $gst->gst_app_key,
+    //             'sek' => $gst->gst_sek,
+    //             'authorization' => 'Bearer '.$bearer_token,
+    //         ]
+    //     ]);
+
+    //     $body = $response->getBody();
+
+    //     $body = '{
+    //         "b2cs": [
+    //             {
+    //             "flag": "N",
+    //             "chksum": "ASDFGJKLPTBBJKBJKBBJKBB",
+    //             "sply_ty": "INTER",
+    //             "diff_percent": 0.65,
+    //             "rt": 5,
+    //             "typ": "E",
+    //             "etin": "20ABCDE7588L1ZJ",
+    //             "pos": 5,
+    //             "txval": 110,
+    //             "iamt": 10,
+    //             "csamt": 10
+    //             },
+    //             {
+    //             "flag": "N",
+    //             "chksum": "ASDFGJKLPTBBJKBJKBBJKBB",
+    //             "sply_ty": "INTER",
+    //             "diff_percent": 0.65,
+    //             "rt": 5,
+    //             "typ": "OE",
+    //             "pos": 5,
+    //             "txval": 440,
+    //             "iamt": 40,
+    //             "csamt": 10
+    //             },
+    //             {
+    //             "flag": "N",
+    //             "chksum": "ASDFGJKLPTBBJKBJKBBJKBB",
+    //             "sply_ty": "INTRA",
+    //             "diff_percent": 0.65,
+    //             "rt": 0,
+    //             "typ": "E",
+    //             "etin": "20ABCDE7588L1ZJ",
+    //             "txval": 0,
+    //             "camt": 0,
+    //             "csamt": 0,
+    //             "samt": 0
+    //             },
+    //             {
+    //             "flag": "N",
+    //             "chksum": "ASDFGJKLPTBBJKBJKBBJKBB",
+    //             "sply_ty": "INTER",
+    //             "diff_percent": 0.65,
+    //             "rt": 5,
+    //             "typ": "OE",
+    //             "txval": 100,
+    //             "camt": 10,
+    //             "csamt": 10,
+    //             "samt": 10
+    //             }
+    //         ]
+    //     }';
+    //     $body = json_decode($body);
+    //     // pr($body);
+    //     // Output the response
+    //     if(isset($body->status_cd) && $body->status_cd == 0) {
+    //         $err = $body->error->error_cd.' - '.$body->error->message;
+    //         set_alert('warning', $err);
+    //         redirect(admin_url('gst'));
+    //     } else {
+    //         // pr('coming here',1);
+    //         $body = $body->b2cs;
+    //         foreach ($body ?? [] as $key => $invoice) {
+    //             // pr($invoice);
+    //             $data['flag'] = $invoice->flag ?? '';
+    //             $data['chksum'] = $invoice->chksum ?? '';
+    //             $data['sply_ty'] = $invoice->sply_ty ?? '';
+    //             $data['diff_percent'] = $invoice->diff_percent ?? '';
+    //             $data['rt'] = $invoice->rt ?? '';
+    //             $data['typ'] = $invoice->typ ?? '';
+    //             $data['etin'] = $invoice->etin ?? '';
+    //             $data['pos'] = $invoice->pos ?? '';
+    //             $data['txval'] = $invoice->txval ?? '';
+    //             $data['iamt'] = $invoice->iamt ?? '';
+    //             $data['csamt'] = $invoice->csamt ?? '';
+    //             // pr($data);
+    //             $invoice_id = $this->gst_model->add('_gstr1_b2cs_invoices',$data);
+    //         }
+    //         // pr($data,1);
+    //         set_alert('success', _l('added_successfully', _l('invoice')));
+    //         redirect(admin_url('gst'));
+    //     }
+    // }
+    // public function GetCDNRInvoices() {
+    //     $base_url       = get_option('api_base_url');
+    //     $bearer_token   = get_option('company_bearer_token');
+    //     if(empty($bearer_token)){
+    //         $bearer_token = GetBearerToken();
+    //     }
+
+    //     $gst = $this->settings_model->get_default_gst();
+    //     if(empty($gst)){
+    //         set_alert('warning', _l('There is no default GST. Please select Default GST First!'));
+    //         redirect(admin_url('Gst'));
+    //     }else if($gst && $gst->gst_auth_token == ''){
+    //         $gst = GetGstAuthToken($gst->id);
+    //     } elseif ($gst && $gst->gst_token_expiry_date && time() < strtotime($gst->gst_token_expiry_date)) {
+    //         $gst = GetGstRefreshToken();
+    //     }
+    //     // pr($base_url);
+    //     // pr($gst);
+
+    //     $ret_period = 122023;
+    //     //Create guzzle http client
+    //     $client = new \GuzzleHttp\Client(); 
+    //     $response = $client->request('GET', $base_url.'/api/gst/getcdnr/'.$gst->gst_number.'/'.$ret_period, [
+    //         // 'body' => json_encode($api_data),
+    //         'headers' => [
+    //             'accept' => 'application/json',
+    //             "username" => $gst->gst_user_id,
+    //             'ip-usr' => get_ip(),
+    //             'state-cd'=> (int) ($gst->gst_number) ? substr($gst->gst_number,0,2) : 29,
+    //             'auth-token' => $gst->gst_auth_token,
+    //             'app_key' => $gst->gst_app_key,
+    //             'sek' => $gst->gst_sek,
+    //             'authorization' => 'Bearer '.$bearer_token,
+    //         ]
+    //     ]);
+
+    //     $body = $response->getBody();
+
+    //     $body = '{
+    //         "cdnr": [
+    //             {
+    //             "ctin": "01AABCE2207R1Z5",
+    //             "cfs": "Y",
+    //             "nt": [
+    //                 {
+    //                 "chksum": "BBUIBUIUIJKKBJKGUYFTFGUY",
+    //                 "cflag": "N",
+    //                 "updby": "S",
+    //                 "ntty": "C",
+    //                 "nt_num": 533515,
+    //                 "nt_dt": "23-09-2016",
+    //                 "p_gst": "N",
+    //                 "inum": "S008400",
+    //                 "idt": "24-11-2016",
+    //                 "val": 729248.16,
+    //                 "opd": "2016-12",
+    //                 "pos": 6,
+    //                 "rchrg": "N",
+    //                 "inv_typ": "R",
+    //                 "d_flag": "Y",
+    //                 "flag": "N",
+    //                 "srctyp": "EInvoice",
+    //                 "irn": "897ADG56RTY78956HYUG90BNHHIJK453GFTD99845672FDHHHSHGFH4567FG56TR",
+    //                 "irngendate": "24-12-2019",
+    //                 "itms": [
+    //                     {
+    //                     "num": 1,
+    //                     "itm_det": {
+    //                         "rt": 15,
+    //                         "txval": 5225.28,
+    //                         "iamt": 845.22,
+    //                         "csamt": 789.52
+    //                     }
+    //                     }
+    //                 ]
+    //                 }
+    //             ]
+    //             }
+    //         ]
+    //     }';
+    //     $body = json_decode($body);
+    //     // pr($body);
+    //     // Output the response
+    //     if(isset($body->status_cd) && $body->status_cd == 0) {
+    //         $err = $body->error->error_cd.' - '.$body->error->message;
+    //         set_alert('warning', $err);
+    //         redirect(admin_url('gst'));
+    //     } else {
+    //         // pr('coming here',1);
+    //         $body = $body->cdnr;
+    //         foreach ($body ?? [] as $key => $invoice) {
+    //             // pr($invoice);
+    //             $data['ctin'] = $invoice->ctin;
+    //             $data['cfs'] = $invoice->cfs;
+    //             foreach($invoice->nt ?? [] as $k => $inv){
+    //                 // pr($inv);
+    //                 $data['chksum'] = $inv->chksum;
+    //                 $data['cflag'] = $inv->cflag;
+    //                 $data['updby'] = $inv->updby;
+    //                 $data['ntty'] = $inv->ntty;
+    //                 $data['nt_num'] = $inv->nt_num;
+    //                 $data['nt_dt'] = $inv->nt_dt;
+    //                 $data['p_gst'] = $inv->p_gst;
+    //                 $data['inum'] = $inv->inum;
+    //                 $data['idt'] = $inv->idt;
+    //                 $data['val'] = $inv->val;
+    //                 $data['opd'] = $inv->opd;
+    //                 $data['pos'] = $inv->pos;
+    //                 $data['rchrg'] = $inv->rchrg;
+    //                 $data['inv_typ'] = $inv->inv_typ;
+    //                 $data['d_flag'] = $inv->d_flag;
+    //                 $data['flag'] = $inv->flag;
+    //                 $data['srctyp'] = $inv->srctyp;
+    //                 $data['irn'] = $inv->irn;
+    //                 $data['irngendate'] = $inv->irngendate;
+
+    //                 // pr($data);
+    //                 $invoice_id = $this->gst_model->add('_gstr1_cdnr_invoices',$data);
+    //                 // pr($inv);
+    //                 if($invoice_id){
+    //                     foreach ($inv->itms ?? [] as $i => $item) {
+    //                         // pr($item);
+    //                         $item_data['num'] = $item->num;
+    //                         $item_data['rt'] = $item->itm_det->rt;
+    //                         $item_data['txval'] = $item->itm_det->txval;
+    //                         $item_data['iamt'] = $item->itm_det->iamt;
+    //                         $item_data['csamt'] = $item->itm_det->csamt;
+    //                         $this->gst_model->add('_gstr1_cdnr_invoice_items',$item_data);
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //         // pr($data,1);
+    //         set_alert('success', _l('added_successfully', _l('invoice')));
+    //         redirect(admin_url('gst'));
+    //     }
+    // }
+    public function GetCDNURInvoices() {
+        $base_url       = get_option('api_base_url');
+        $bearer_token   = get_option('company_bearer_token');
+        if(empty($bearer_token)){
+            $bearer_token = GetBearerToken();
+        }
+
+        $gst = $this->settings_model->get_default_gst();
+        if(empty($gst)){
+            set_alert('warning', _l('There is no default GST. Please select Default GST First!'));
+            redirect(admin_url('Gst'));
+        }else if($gst && $gst->gst_auth_token == ''){
+            $gst = GetGstAuthToken($gst->id);
+        } elseif ($gst && $gst->gst_token_expiry_date && time() > strtotime($gst->gst_token_expiry_date)) {
+            $gst = GetGstRefreshToken();
+        }
+        // pr($base_url);
+        // pr($gst);
+
+        $ret_period = 122023;
+        //Create guzzle http client
+        $client = new \GuzzleHttp\Client(); 
+        $response = $client->request('GET', $base_url.'/api/gst/getcdnr/'.$gst->gst_number.'/'.$ret_period, [
+            // 'body' => json_encode($api_data),
+            'headers' => [
+                'accept' => 'application/json',
+                "username" => $gst->gst_user_id,
+                'ip-usr' => get_ip(),
+                'state-cd'=> (int) ($gst->gst_number) ? substr($gst->gst_number,0,2) : 29,
+                'auth-token' => $gst->gst_auth_token,
+                'app_key' => $gst->gst_app_key,
+                'sek' => $gst->gst_sek,
+                'authorization' => 'Bearer '.$bearer_token,
+            ]
+        ]);
+
+        $body = $response->getBody();
+
+        $body = '{
+            "cdnur": [
+                {
+                "flag": "N",
+                "chksum": "BBUIBUIUIJKKBJKGUYFTFGUY",
+                "typ": "B2CL",
+                "ntty": "C",
+                "nt_num": 533515,
+                "nt_dt": "23-09-2016",
+                "p_gst": "N",
+                "inum": 915914,
+                "val": 123123,
+                "diff_percent": 0.65,
+                "pos": 3,
+                "idt": "23-09-2016",
+                "d_flag": "Y",
+                "srctyp": "EInvoice",
+                "irn": "897ADG56RTY78956HYUG90BNHHIJK453GFTD99845672FDHHHSHGFH4567FG56TR",
+                "irngendate": "24-12-2019",
+                "itms": [
+                    {
+                    "num": 1,
+                    "itm_det": {
+                        "rt": 15,
+                        "txval": 5225.28,
+                        "iamt": 845.22,
+                        "csamt": 789.52
+                    }
+                    }
+                ]
+                }
+            ]
+        }';
+        $body = json_decode($body);
+        // pr($body,1);
+        // Output the response
+        if(isset($body->status_cd) && $body->status_cd == 0) {
+            $err = $body->error->error_cd.' - '.$body->error->message;
+            set_alert('warning', $err);
+            redirect(admin_url('gst'));
+        } else {
+            // pr('coming here',1);
+            $body = $body->cdnur;
+            foreach ($body ?? [] as $key => $invoice) {
+                pr($invoice);
+                $data['flag'] = $invoice->flag;
+                $data['chksum'] = $invoice->chksum;
+                $data['typ'] = $invoice->typ;                
+                $data['ntty'] = $invoice->ntty;                
+                $data['nt_num'] = $invoice->nt_num;
+                $data['nt_dt'] = $invoice->nt_dt;
+                $data['p_gst'] = $invoice->p_gst;
+                $data['inum'] = $invoice->inum;
+                $data['val'] = $invoice->val;
+                $data['diff_percent'] = $invoice->diff_percent;
+                $data['pos'] = $invoice->pos;
+                $data['idt'] = $invoice->idt;
+                $data['d_flag'] = $invoice->d_flag;
+                $data['srctyp'] = $invoice->srctyp;
+                $data['irn'] = $invoice->irn;
+                $data['irngendate'] = $invoice->irngendate;
+                    // pr($data,1);
+                    $invoice_id = $this->gst_model->add('_gstr1_cdnur_invoices',$data);
+                    // pr($inv);
+                    if($invoice_id){
+                        foreach ($invoice->itms ?? [] as $i => $item) {
+                            // pr($item);
+                            $item_data['num'] = $item->num;
+                            $item_data['rt'] = $item->itm_det->rt;
+                            $item_data['txval'] = $item->itm_det->txval;
+                            $item_data['iamt'] = $item->itm_det->iamt;
+                            $item_data['csamt'] = $item->itm_det->csamt;
+                            $this->gst_model->add('_gstr1_cdnur_invoice_items',$item_data);
+                        }
+                    }
+                
+            }
+            // pr($data,1);
+            set_alert('success', _l('added_successfully', _l('invoice')));
+            redirect(admin_url('gst'));
+        }
+    }
+    public function GetOTPByUser(){
+        $this->load->model('settings_model');
+        // $gst = $this->settings_model->get_default_gst();
+        $api_data=[
+            "action" => "OTPREQUEST",
+            "username" => $this->input->post('username'),
+        ];
+        $base_url       = get_option('api_base_url');
+        $bearer_token   = get_option('company_bearer_token');
+        if(empty($bearer_token)){
+            $bearer_token = GetBearerToken();
+        }
+        
+        //Create guzzle http client
+        $client = new \GuzzleHttp\Client(); 
+        $response = $client->request('POST', $base_url.'/api/gst/requestOTP', [
+            'body' => json_encode($api_data),
+            'headers' => [
+                'accept' => 'application/json',
+                'ip-usr' => get_ip(),
+                // 'state-cd'=> (int) ($gst->gst_number) ? substr($gst->gst_number,0,2) : 29, 
+                'state-cd'=> $this->input->post('state_code'), //33, 
+                // 'state-cd'=> 33, 
+                'authorization' => 'Bearer '.$bearer_token,
+                'content-type' => 'application/json',
+
+            ],
+        ]);
+        $body = $response->getBody();
+        // Output the response
+        $body = json_decode($body);
+        // pr($body);
+        $gst_data = [];
+        if($body->status_cd == 1){
+            $data['status'] = 1; 
+            $data['message'] = 'Please enter the OTP'; 
+            $gst_data['gst_app_key'] = $body->app_key;
+            $gst_success = $ci->settings_model->gst_update($gst_data, $gst->id);
+        } else if($body->status_cd == 0){
+            $err = $body->error->error_cd.' - '.$body->error->message;
+            $data['status'] = 0; 
+            $data['message'] =$err;
+        }
+        echo json_encode($data);
     }
 
     /* List all invoices datatables */  

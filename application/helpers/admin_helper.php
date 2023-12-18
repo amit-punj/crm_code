@@ -605,7 +605,6 @@ function GetOTP(){
     $body = $response->getBody();
     // Output the response
     $body = json_decode($body);
-
     $gst_data = [];
     if($body->status_cd == 1){
         $gst_data['gst_app_key'] = $body->app_key;
@@ -614,7 +613,7 @@ function GetOTP(){
     $gst = $ci->settings_model->get_default_gst();
     return $gst;
 }
-function GetGstAuthToken(){
+function GetGstAuthToken($id = ''){
     $ci = &get_instance();
     $ci->load->model('settings_model');
 
@@ -624,12 +623,16 @@ function GetGstAuthToken(){
         $bearer_token = GetBearerToken();
     }
     // $state_cd       = get_option('state-cd');
-    $gst = $ci->settings_model->get_default_gst();
+    if($id != ''){
+        $gst = $ci->settings_model->get_all($id);
+    } else {
+        $gst = $ci->settings_model->get_default_gst();
+    }
 
     $api_data=[
         "action" => "AUTHTOKEN",
         "username" => $gst->gst_user_id,
-        "otp" => "575757"
+        "otp" => $gst->otp
     ];
     //Create guzzle http client
     $client = new \GuzzleHttp\Client(); 
@@ -647,6 +650,7 @@ function GetGstAuthToken(){
     $body = $response->getBody();
       // Output the response
     $body = json_decode($body);
+    // pr($body,1);
     $gst_data = [];
     if(isset($body->auth_token) && isset($body->status_cd)){
         $gst_data['gst_auth_token'] = $body->auth_token;
@@ -661,6 +665,58 @@ function GetGstAuthToken(){
     $gst = $ci->settings_model->get_default_gst();
     return $gst;
 }
+function GetGstRefreshToken(){
+    $ci = &get_instance();
+    $ci->load->model('settings_model');
+
+    $base_url           = get_option('api_base_url');
+    $bearer_token       = get_option('company_bearer_token');
+    if(empty($bearer_token)){
+        $bearer_token = GetBearerToken();
+    }
+    // $state_cd       = get_option('state-cd');
+    $gst = $ci->settings_model->get_default_gst();
+
+    $api_data=[
+        "action" => "REFRESHTOKEN",
+        "username" => $gst->gst_user_id,
+        "auth_token" => $gst->gst_auth_token,
+        "app_key" => $gst->gst_app_key
+    ];
+    //Create guzzle http client
+    $client = new \GuzzleHttp\Client(); 
+    $response = $client->request('POST', $base_url.'/api/gst/refreshtoken', [
+        'body' => json_encode($api_data),
+        'headers' => [
+            'accept' => 'application/json',
+            'ip-usr' => get_ip(),
+            // 'state-cd'=> (int) ($gst->gst_number) ? substr($gst->gst_number,0,2) : 29,
+            'state-cd'=> 27,
+            'authorization' => 'Bearer '.$bearer_token,
+            'sek' => $gst->gst_app_key,
+            'content-type' => 'application/json',
+
+        ],
+    ]);
+    $body = $response->getBody();
+    // echo $body;
+      // Output the response
+    $body = json_decode($body);
+    $gst_data = [];
+    if(isset($body->auth_token) && isset($body->status_cd)){
+        $gst_data['gst_auth_token'] = $body->auth_token;
+        $gst_data['gst_token_expiry_date'] = Date('y:m:d', strtotime('+'.$body->expiry.' days'));
+        $gst_data['gst_sek'] = $body->sek;
+        $gst_success = $ci->settings_model->gst_update($gst_data, $gst->id);
+    } else if($body->status_cd == 0){
+        $err = $body->error->error_cd.' - '.$body->error->message;
+        $data['status'] = 0; 
+        $data['errors'] =$err;
+    }
+    $gst = $ci->settings_model->get_default_gst();
+    return $gst;
+}
+
 /**
  * @since  2.3.3
  * Helper function for checking staff capabilities, this function should be used instead of has_permission
